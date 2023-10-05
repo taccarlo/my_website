@@ -5,6 +5,10 @@ import About from "./components/pages/about";
 import RootLayout from "./components/root/root";
 import CustomErrorElement from "./components/navigation/errorElement";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
+import packageJson from '../package.json';
+
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +25,10 @@ const router = createBrowserRouter([
 function App(){
   return  <div>
               <RouterProvider router = {router}/>
+              <nav style = { {  position: 'absolute',  bottom:0, right:10}} className="navbar navbar-light">
+                <p>{packageJson.name} V. {packageJson.version}</p>
+              </nav>
+              <CookieConsent buttonText="OK" >Questo sito utilizza cookies per migliorare la tua esperienza utente.</CookieConsent>
           </div>;
 }
 
