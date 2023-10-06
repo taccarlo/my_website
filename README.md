@@ -32,5 +32,3 @@ npm run build
 
 ## TODO: 
 - SEO friendly
-- version number
-- coockie warning
