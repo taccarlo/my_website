@@ -1,2 +1,6 @@
 https://taccarlo.web.app/
 https://taccarlo.web.app/about
+https://taccarlo.web.app/myGithub
+https://taccarlo.web.app/didattica
+https://taccarlo.web.app/GTSA
+https://taccarlo.web.app/edCivica
