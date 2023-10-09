@@ -1,5 +1,12 @@
+import { Helmet } from 'react-helmet-async';
 function EdCivica(){
-    return (<><h1>Educazione civica 2022/23</h1>
+    return (<>
+        <Helmet>
+            <title>edCivica</title>
+            <meta name="description" content="Parte relativa all'educazione civica"/>
+            <link rel = "canonical" href = "/edCivica" />
+            <meta name="robots" content="noindex"/>
+        </Helmet><h1>Educazione civica 2022/23</h1>
     <h2>Istruzioni</h2>
     <p>
     Gli studenti dovranno fare un elaborato sui seguenti temi con un documento formato word, l’elaborato sarà oggetto di valutazione dal punto di vista informatico. 

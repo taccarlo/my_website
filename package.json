@@ -1,6 +1,6 @@
 {
-  "name": "taccarloWeb",
-  "version": "0.0.1",
+  "name": "TaccarloWeb",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
