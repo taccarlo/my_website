@@ -13,10 +13,40 @@ function Home(){
             <link rel = "canonical" href = "/" />
             <meta name="robots" content="noindex"/>
         </Helmet>
-         <h1>{packageJson.name}</h1>
-         <p><Link to="/didattica">Didattica</Link></p>
-         <p><Link to="/myGithub">I miei progetti su Github</Link></p>
-         <p><Link to="/GTSA">Canale App Android Good Time Studios App</Link></p>
+        <div className="container px-4 px-lg-5">
+          <div className="row gx-4 gx-lg-5 align-items-center my-5">
+            <h1>{packageJson.name}</h1>
+          </div>          
+          <div className="row gx-4 gx-lg-5">
+              <div className="col-md-4 mb-5">
+                  <div className="card h-100">
+                      <div className="card-body">
+                          <h2 className="card-title">Didattica</h2>
+                          <p className="card-text">Sezione dedicata alla raccolta del materiale utile per i ragazzi delle superiori.</p>
+                      </div>
+                      <div className="card-footer"><Link to="/didattica" className="btn btn-primary btn-sm">Vai alla sezione</Link></div>
+                  </div>
+              </div>
+              <div className="col-md-4 mb-5">
+                  <div className="card h-100">
+                      <div className="card-body">
+                          <h2 className="card-title">I miei progetti su Github</h2>
+                          <p className="card-text">Sezione che mostra alcuni progetti a cui ho collaborato che rispettano la filosofia del codice Open Source.</p>
+                      </div>
+                      <div className="card-footer"><Link to="/myGithub" className="btn btn-primary btn-sm">Vai alla sezione</Link></div>
+                  </div>
+              </div>
+              <div className="col-md-4 mb-5">
+                  <div className="card h-100">
+                      <div className="card-body">
+                          <h2 className="card-title">Good Time Studios App</h2>
+                          <p className="card-text">Il mio canale per App Android. Alcune app Android di mia creazione disponibili su Google Play.</p>
+                      </div>
+                      <div className="card-footer"><Link to="/GTSA" className="btn btn-primary btn-sm">Vai alla sezione</Link></div>
+                  </div>
+              </div>
+          </div>
+        </div>
        </>
      ); 
 }
