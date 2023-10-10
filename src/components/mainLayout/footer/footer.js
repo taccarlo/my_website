@@ -7,9 +7,9 @@ function Footer(){
     return( 
         <> 
         
-        <nav className="py-5 bg-dark">
+        <nav className="py-2 bg-dark fixed-bottom ">
           <div className="container px-4 px-lg-5">
-            <p className="m-0 text-center text-white">{packageJson.name} V. {packageJson.version}</p>
+            <p className="m-0 text-center text-white">{packageJson.name} - V. {packageJson.version}</p>
           </div>
         </nav>
         
