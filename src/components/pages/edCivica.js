@@ -101,14 +101,13 @@ function EdCivica() {
             <li>Risparmio energetico</li>
             <li>Riscaldamento Globale</li>
             <li> Negazionismo in scienza e politica</li>
-            <li> Api e biodiversità: l'importanza degli impollinatori</li></ul>
-            <h3>Temi su energia pulita ed accessibile</h3>
-            <ul>
+            <li> Api e biodiversità: l'importanza degli impollinatori</li>
             <li>Il nucleare come energia pulita, pro e contro</li> </ul>
             <h3>Temi su città e comunità sostenibili</h3>
             <ul>
             <li>Condivisione di video e immagini senza il consenso dei protagonisti (si può citare il caso Tiziana Cantone)</li>
-            <li>Mobbing sul posto di lavoro La shitstorm e il fenomeno degli haters</li>
+            <li>Mobbing sul posto di lavoro </li>
+            <li>La shitstorm e il fenomeno degli haters</li>
             <li>Utilizzo corretto dei social</li> 
             <li>Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle Fake news </li>
             <li>Influenze Post pandemia in ambito sociale </li>
