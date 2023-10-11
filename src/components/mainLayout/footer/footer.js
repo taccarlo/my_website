@@ -1,7 +1,6 @@
 
 import CookieConsent from "react-cookie-consent";
 import packageJson from '../../../../package.json';
-import '../../../style/style.css';
 
 function Footer(){
     return( 

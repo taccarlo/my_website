@@ -8,7 +8,7 @@ function EdCivica() {
           name="description"
           content="Parte relativa all'educazione civica"
         />
-        <link rel="canonical" href="/edCivica" />
+        <link rel="canonical" href="/didattica/edCivica" />
         <meta name="robots" content="noindex" />
       </Helmet>
       <div className="container px-4 px-lg-5">

@@ -16,7 +16,8 @@ function Didattica(){
             </div>     
 
                {/* <h3>Link a canale Youtube</h3> */}
-                <p><Link to="/edCivica">Educazione civica 23/24</Link></p>
+                <p><Link to="/didattica/binario">Numeri Binari</Link></p>
+                <p><Link to="/didattica/edCivica">Educazione civica 23/24</Link></p>
 
             </div>
             </>);

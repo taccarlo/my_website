@@ -9,6 +9,8 @@ import MyGithub from "./components/pages/myGithub";
 import Didattica from "./components/pages/didattica";
 import GTSA from "./components/pages/GTSA";
 import EdCivica from "./components/pages/edCivica.js";
+import Binario from "./components/pages/binario.js";
+import './style/style.css';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,8 @@ const router = createBrowserRouter([
       {path:'/myGithub', element: <MyGithub/>},
       {path:'/didattica', element: <Didattica/>},
       {path:'/GTSA', element: <GTSA/>},
-      {path:'/edCivica', element: <EdCivica/>}
+      {path:'/didattica/edCivica', element: <EdCivica/>},
+      {path:'/didattica/binario', element: <Binario/>}
     ]},
 ]);
 
