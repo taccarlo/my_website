@@ -1,6 +1,6 @@
 # WEBSITE
 
-Example of website built with REACT JS, FIREBASE and hosted in FIREBASE HOSTING.
+Website built with REACT JS, FIREBASE and hosted in FIREBASE HOSTING.
 
 ## Available Scripts
 
@@ -31,4 +31,4 @@ remember to build the app before deploy running
 npm run build
 
 ## TODO: 
-- SEO friendly
+- Test SEO friendly

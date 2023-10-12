@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+
 import { Helmet } from "react-helmet-async";
 import YoutubeEmbed from "../embeddedVideo/YoutubeEmbed";
+import CardBinario from "../card/Card_binario";
 function Binario() {
   return (
     <>
@@ -18,72 +19,11 @@ function Binario() {
           <h1>Codice Binario: Passaggio da una base numerica ad un'altra.</h1>
         </div>
 
-        <div className="container px-4 px-lg-5">
         
         <div className="row gx-4 gx-lg-5 my-5">
-            <div className="col-md-4 mb-5">
-              <div className="card h-100">
-                  <YoutubeEmbed embedId="uhM0TFn9BuQ" />
-                <div className="card-body">
-                  <p className="card-text">
-                    Video che illustra il passaggio da un numero binario a decimale
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <a
-                    target="_blank"
-                    className="btn btn-primary btn-sm"
-                    rel="noopener noreferrer"
-                    href="https://www.youtube.com/watch?v=uhM0TFn9BuQ&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=1"
-                  >
-                    Guarda su Youtube
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-5">
-              <div className="card h-100">
-                  <YoutubeEmbed embedId="LEM1F_QXcL0" />
-                <div className="card-body">
-                  <p className="card-text">
-                    Video che illustra il passaggio da un numero decimale a binario
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <a
-                    target="_blank"
-                    className="btn btn-primary btn-sm"
-                    rel="noopener noreferrer"
-                    href="https://www.youtube.com/watch?v=LEM1F_QXcL0&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=3"
-                  >
-                    Guarda su Youtube
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 mb-5">
-              <div className="card h-100">
-                  <YoutubeEmbed embedId="Sr0K_fCCiYM" />
-                <div className="card-body">
-                  <p className="card-text">
-                    Video che illustra il passaggio da un numero binario a esadecimale
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <a
-                    target="_blank"
-                    className="btn btn-primary btn-sm"
-                    rel="noopener noreferrer"
-                    href="https://www.youtube.com/watch?v=Sr0K_fCCiYM&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=2"
-                  >
-                    Guarda su Youtube
-                  </a>
-                </div>
-              </div>
-            </div>
-            </div>
+            <CardBinario youtubeID="LEM1F_QXcL0" cardText="Video che illustra il passaggio da un numero decimale a binario" youtubeLink="https://www.youtube.com/watch?v=LEM1F_QXcL0&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=3"/>
+            <CardBinario youtubeID="uhM0TFn9BuQ" cardText="Video che illustra il passaggio da un numero binario a decimale" youtubeLink="https://www.youtube.com/watch?v=uhM0TFn9BuQ&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=1"/>
+            <CardBinario youtubeID="Sr0K_fCCiYM" cardText="Video che illustra il passaggio da un numero binario a esadecimale" youtubeLink="https://www.youtube.com/watch?v=Sr0K_fCCiYM&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=2"/>
         </div>
       </div>
     </>
