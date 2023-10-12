@@ -8,7 +8,6 @@ function About(){
                 <title>About</title>
                 <meta name="description" content="About myself"/>
                 <link rel = "canonical" href = "/about" />
-                <meta name="robots" content="noindex"/>
             </Helmet>
             <h1>My About Page</h1>
             <p>Go to <Link to="/">home</Link></p>

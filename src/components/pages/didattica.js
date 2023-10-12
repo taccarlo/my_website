@@ -7,7 +7,6 @@ function Didattica(){
                     <title>Didattica</title>
                     <meta name="description" content="Parte relativa alla didattica"/>
                     <link rel = "canonical" href = "/didattica" />
-                    <meta name="robots" content="noindex"/>
                 </Helmet>
             <div className="container px-4 px-lg-5">
 
