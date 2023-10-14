@@ -21,28 +21,40 @@ function EdCivica() {
                 <ul>
                   <li>
                     Gli studenti dovranno fare un elaborato sui seguenti temi
-                    con un documento formato word.
+                    con un documento formato powerpoint.
                   </li>
                   <li>
                     Gli elaborati andranno consegnati sul registro elettronico
-                    entro la fine delle vacanze di natale ( Formato pdf).
-                  </li>
-                  <li>
-                    Per qualsiasi questione mi trovate potete inviarmi una
-                    email.
+                    entro la fine delle vacanze di natale.
                   </li>
                   <li>
                     Nel documento dovranno essere inserite alcune immagini
                   </li>
                   <li>
-                    I capitoli del documento dovranno essere ben delineati
+                    Le sezioni del documento dovranno essere ben delineate
                   </li>
                   <li>
                     Lo stile che il documento dovrà seguire è a cura dello
                     studente ma dovrà essere coerente in tutta la sua interezza
-                    come tipologie di font e dimensioni caratteri (si usi come
-                    esempio questo stesso documento)
+                    come tipologie di font e dimensione dei caratteri
                   </li>
+                  <li>
+                    Dovranno essere presenti animazioni tra slide e sugli
+                    elementi specifici.
+                  </li>
+                  <li>
+                    L’esposizione totale delle slide dovrà durare circa da 5 a 7
+                    minuti
+                  </li>
+                  <li>
+                    Dovrà essere presente nel documento un link ad un video che
+                    parla dell’argomento
+                  </li>
+                  <li>
+                    Le informazioni citate dovranno essere corredate da
+                    opportuna sitografia o bibliografia
+                  </li>
+                  <li>Per qualsiasi questione potete inviarmi una email.</li>
                 </ul>
               </p>
             </div>
@@ -69,9 +81,10 @@ function EdCivica() {
             </ul>
             <h3>Temi su salute e benessere mentale: </h3>
             <ul>
+              <li>Abuso di sostanze</li>
               <li>
-                Abuso di sostanze Catfishing e amore sui social (si può citare
-                anche il caso Roberto Zaccaria)
+                Catfishing e amore sui social (si può citare anche il caso
+                Roberto Zaccaria)
               </li>
               <li> Bullismo e cyberbullismo</li>
               <li> I tipi di bullismo: verbale fisico e sociale </li>
@@ -86,38 +99,54 @@ function EdCivica() {
             </ul>
             <h3>Temi su parità di genere:</h3>
             <ul>
-                <li>Parità di genere</li> 
-                <li>Femminicidio</li> 
-                <li>Discriminazione di genere </li>
-                <li>donne e materie stem, la matematica piace solo agli uomini?</li> 
-                <li>Afghanistan e diritti delle donne</li>
+              <li>Parità di genere</li>
+              <li>Femminicidio</li>
+              <li>Discriminazione di genere </li>
+              <li>
+                Donne e materie stem, la matematica piace solo agli uomini?
+              </li>
+              <li>Afghanistan e diritti delle donne</li>
             </ul>
             <h3>Temi su lotta al cambiamento climatico:</h3>
             <ul>
-            <li>Carne coltivata in laboratorio ed ecosostenibilità </li>
-            <li>Impatto della carne a livello ecologico, differenze ambientali tra tipi di carne</li>
-            <li>Sparizione delle biodiversità </li>
-            <li>Risparmio energetico</li>
-            <li>Riscaldamento Globale</li>
-            <li> Negazionismo in scienza e politica</li>
-            <li> Api e biodiversità: l'importanza degli impollinatori</li>
-            <li>Il nucleare come energia pulita, pro e contro</li> </ul>
+              <li>Carne coltivata in laboratorio ed ecosostenibilità </li>
+              <li>
+                Impatto della carne a livello ecologico, differenze ambientali
+                tra tipi di carne
+              </li>
+              <li>Sparizione delle biodiversità </li>
+              <li>Risparmio energetico</li>
+              <li>Riscaldamento Globale</li>
+              <li> Negazionismo in scienza e politica</li>
+              <li> Api e biodiversità: l'importanza degli impollinatori</li>
+              <li>Il nucleare come energia pulita, pro e contro</li>{" "}
+            </ul>
             <h3>Temi su città e comunità sostenibili</h3>
             <ul>
-            <li>Condivisione di video e immagini senza il consenso dei protagonisti (si può citare il caso Tiziana Cantone)</li>
-            <li>Mobbing sul posto di lavoro </li>
-            <li>La shitstorm e il fenomeno degli haters</li>
-            <li>Utilizzo corretto dei social</li> 
-            <li>Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle Fake news </li>
-            <li>Influenze Post pandemia in ambito sociale </li>
-            <li>Difesa e valorizzazione patrimonio culturale</li>
-            <li>Contrasto alle mafie</li>
-            <li>Internet e frenesia della vita</li>
-            <li>Negazionismo e complottismo Denatalità in italia: problema economico o culturale?</li>
-            <li>
-              Sostenibilità sociale, ambientale ed economica di un’azienda
-            </li>
-            <li> Greenwashing</li></ul> 
+              <li>
+                Condivisione di video e immagini senza il consenso dei
+                protagonisti (si può citare il caso Tiziana Cantone)
+              </li>
+              <li>Mobbing sul posto di lavoro </li>
+              <li>La shitstorm e il fenomeno degli haters</li>
+              <li>Utilizzo corretto dei social</li>
+              <li>
+                Differenza tra informazione e disinformazione, la cura delle
+                fonti e fenomeno delle Fake news{" "}
+              </li>
+              <li>Influenze Post pandemia in ambito sociale </li>
+              <li>Difesa e valorizzazione patrimonio culturale</li>
+              <li>Contrasto alle mafie</li>
+              <li>Internet e frenesia della vita</li>
+              <li>
+                Negazionismo e complottismo Denatalità in italia: problema
+                economico o culturale?
+              </li>
+              <li>
+                Sostenibilità sociale, ambientale ed economica di un’azienda
+              </li>
+              <li> Greenwashing</li>
+            </ul>
           </p>
 
           <div className="card text-white bg-secondary my-5 py-4 ">
