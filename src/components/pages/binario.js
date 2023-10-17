@@ -1,6 +1,5 @@
 
 import { Helmet } from "react-helmet-async";
-import YoutubeEmbed from "../embeddedVideo/YoutubeEmbed";
 import CardBinario from "../card/Card_binario";
 function Binario() {
   return (
