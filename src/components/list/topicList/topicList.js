@@ -5,7 +5,7 @@ function TopicList(props){
         </li>
       )
     return <>
-    <ul className="list-group" style={{maxHeight: 200, overflow: 'auto', padding:2}}>
+    <ul className="list-group" style={{maxHeight: 300, overflow: 'auto', padding:2}}>
         {listTopics}
     </ul></>;
 }
