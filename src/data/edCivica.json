@@ -1,59 +1,220 @@
 {
-    "Temi sulla riduzione delle disuguaglianze" : [
-        "Razzismo ieri e oggi",
-        "la black face negli stati uniti",
-        "White washing",
-        "Barriere architettoniche e mentali che la società pone nei confronti della disabilità fisica",
-        "Diritti costituzionali",
-        "Diritti lgbt",
-        "Morti nel Mar Mediterraneo a causa del fenomeno migratorio",
-        "Inclusività e utilizzo della schwa",
-        "Situazione carceri in italia e nel mondo",
-        "Whitewashing"
-    ],
-    "Temi su salute e benessere mentale": [
-        "Abuso di sostanze",
-        "Catfishing e amore sui social (si può citare anche il caso Roberto Zaccaria)",
-        "Bullismo e cyberbullismo",
-        "I tipi di bullismo: verbale fisico e sociale",
-        "Smart working, pro e contro",
-        "Ergonomia, computer e salute",
-        "Ansia in contesto scolastico",
-        "Differenza tra tristezza e depressione",
-        "Educazione alla salute: il fumo",
-        "Accettazione del proprio corpo: Anoressia e obesità",
-        "Il body shaming",
-        "Educazione alla salute: l’abuso di alcool"
-    ],
-    "Temi su parità di genere": [
-        "Parità di genere",
-        "Femminicidio",
-        "Discriminazione di genere",
-        "Donne e materie stem, la matematica piace solo agli uomini?",
-        "Afghanistan e diritti delle donne"
-    ],
-    "Temi su lotta al cambiamento climatico": [
-        "Carne coltivata in laboratorio ed ecosostenibilità",
-        "Impatto della carne a livello ecologico, differenze ambientali tra tipi di carne",
-        "Sparizione delle biodiversità",
-        "Risparmio energetico",
-        "Riscaldamento Globale",
-        "Negazionismo in scienza e politica",
-        "Api e biodiversità: l'importanza degli impollinatori",
-        "Il nucleare come energia pulita, pro e contro"
-    ],
-    "Temi su città e comunità sostenibili": [
-        "Condivisione di video e immagini senza il consenso dei protagonisti (si può citare il caso Tiziana Cantone)",
-        "Mobbing sul posto di lavoro",
-        "La shitstorm e il fenomeno degli haters",
-        "Utilizzo corretto dei social",
-        "Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle Fake news",
-        "Influenze Post pandemia in ambito sociale",
-        "Difesa e valorizzazione patrimonio culturale",
-        "Contrasto alle mafie",
-        "Internet e frenesia della vita",
-        "Negazionismo e complottismo Denatalità in italia: problema economico o culturale?",
-        "Sostenibilità sociale, ambientale ed economica di un’azienda",
-        "Greenwashing"
+    
+    "temi" : [
+
+        {
+            "topic":"Temi sulla riduzione delle disuguaglianze",
+            "list":[
+                {
+                    "title":"Razzismo ieri e oggi",
+                    "description":"Esamina la storia e le forme contemporanee di razzismo nel mondo."
+                },
+                {
+                    "title":"la black face negli stati uniti",
+                    "description":"Analizza la pratica dell'imitazione delle persone di colore e le sue implicazioni."
+                },
+                {
+                    "title":"White face",
+                    "description":"Tratta il fenomeno di appropriazione culturale e la rappresentazione inadeguata delle minoranze."
+                },
+                {
+                    "title":"Barriere architettoniche e mentali per la disabilità fisica",
+                    "description":"Esplora gli ostacoli sia fisici che sociali affrontati dalle persone con disabilità."
+                },
+                {
+                    "title":"Diritti costituzionali",
+                    "description":"Discussione sui diritti fondamentali garantiti dalle costituzioni."
+                },
+                {
+                    "title":"Diritti LGBT",
+                    "description":"Analisi dei diritti delle persone LGBT e delle sfide che affrontano."
+                },
+                {
+                    "title":"Morti nel Mar Mediterraneo a causa del fenomeno migratorio.",
+                    "description":"Esamina le sfide legate all'immigrazione e alle morti in mare."
+                },
+                {
+                    "title":"Inclusività e utilizzo della schwa.",
+                    "description":"Tratta l'importanza dell'inclusione e dell'uso del linguaggio neutro."
+                },
+                {
+                    "title":"Situazione carceri in Italia e nel mondo",
+                    "description":"Discussione sulla sovraffollamento carcerario e il sistema penitenziario."
+                }
+                
+            ]
+        },
+        {
+            "topic":"Temi su salute e benessere mentale",
+            "list":[
+                {
+                    "title":"Whitewashing",
+                    "description":"Analisi di una pratica dell'industria cinematografica in cui un attore caucasico ottiene il ruolo di un personaggio storicamente di un'altra etnia."
+                },
+                {
+                    "title":"Abuso di sostanze",
+                    "description":"Esplora le conseguenze dell'abuso di droghe e alcol sulla salute e sulla società."
+                },
+                {
+                    "title":"Catfishing e amore sui social",
+                    "description":"Discute il fenomeno del catfishing e le relazioni online ingannevoli (si può citare anche il caso Roberto Zaccaria)."
+                },
+                {
+                    "title":"Bullismo e cyberbullismo",
+                    "description":"Analisi del bullismo tradizionale e delle forme online di aggressione."
+                },
+                {
+                    "title":"I tipi di bullismo",
+                    "description":"Verbale, fisico e sociale: Esamina le diverse modalità di bullismo e i danni che provocano."
+                },
+                {
+                    "title":"Smart working, pro e contro",
+                    "description":"Valutazione dei vantaggi e svantaggi del lavoro da remoto."
+                },
+                {
+                    "title":"Ergonomia, computer e salute",
+                    "description":"Esplora l'importanza dell'ergonomia nella prevenzione di problemi di salute legati all'uso del computer."
+                },
+                {
+                    "title":"Ansia in contesto scolastico",
+                    "description":"Discussione sull'ansia legata agli studi e alle pressioni accademiche."
+                },
+                {
+                    "title":"Differenza tra tristezza e depressione",
+                    "description":"Confronto tra la tristezza comune e la depressione clinica."
+                },
+                {
+                    "title":"Educazione alla salute: il fumo",
+                    "description":"Tratta le conseguenze del fumo sulla salute."
+                },
+                {
+                    "title":"Accettazione del proprio corpo: Anoressia e obesità",
+                    "description":"Esamina le sfide legate all'immagine corporea e i disturbi alimentari."
+                },
+                {
+                    "title":"Il body shaming",
+                    "description":"Analisi delle critiche al corpo e dei pregiudizi basati sull'aspetto fisico."
+                },
+                {
+                    "title":"Educazione alla salute: l’abuso di alcool",
+                    "description":"Discute i problemi legati all'abuso di alcol sulla salute."
+                }
+            ]
+        },
+        {
+            "topic":"Temi su parità di genere",
+            "list":[
+                {
+                    "title":"Parità di genere",
+                    "description":"Tratta la lotta per l'uguaglianza di genere e i progressi compiuti."
+                },
+                {
+                    "title":"Femminicidio",
+                    "description":"Analizza il grave problema degli omicidi di donne basati sul genere."
+                },
+                {
+                    "title":"Discriminazione di genere",
+                    "description":"Esamina le manifestazioni di discriminazione basate sul genere."
+                },
+                {
+                    "title":"Donne e materie STEM, la matematica piace solo agli uomini?",
+                    "description":"Discute gli stereotipi di genere nelle discipline STEM."
+                },
+                {
+                    "title":"Afghanistan e diritti delle donne",
+                    "description":"Analisi dei diritti delle donne in Afghanistan e le sfide che affrontano."
+                }
+            ]
+        },
+        {
+            "topic":"Temi su lotta al cambiamento climatico",
+            "list":[
+                {
+                    "title":"Carne coltivata in laboratorio ed ecosostenibilità",
+                    "description":"Esplora l'agricoltura sostenibile e la produzione di carne in laboratorio."
+                },
+                {
+                    "title":"Impatto della carne a livello ecologico, differenze ambientali tra tipi di carne",
+                    "description":"Analizza l'impatto ambientale della produzione di carne."
+                },
+                {
+                    "title":"Sparizione delle biodiversità",
+                    "description":"Discussione sulla perdita di biodiversità e le sue implicazioni."
+                },
+                {
+                    "title":"Risparmio energetico",
+                    "description":"Tratta le strategie per il risparmio energetico e la sostenibilità."
+                },
+                {
+                    "title":"Riscaldamento Globale",
+                    "description":"Esamina le cause e gli effetti del riscaldamento globale."
+                },
+                {
+                    "title":"Negazionismo in scienza e politica",
+                    "description":"Analizza le sfide della negazione scientifica e politica."
+                },
+                {
+                    "title":"Api e biodiversità: l'importanza degli impollinatori",
+                    "description":"Discute l'importanza delle api nell'ecosistema."
+                },
+                {
+                    "title":"Il nucleare come energia pulita, pro e contro",
+                    "description":"Valuta l'energia nucleare, i suoi vantaggi e svantaggi."
+                }
+            ]
+        },
+        {
+            "topic":"Temi su città e comunità sostenibili",
+            "list":[
+                {
+                    "title":"Condivisione di video e immagini senza il consenso dei protagonisti",
+                    "description":"Discute la privacy online e le conseguenze della diffusione non autorizzata di contenuti (si può citare il caso Tiziana Cantone)."
+                },
+                {
+                    "title":"Mobbing sul posto di lavoro",
+                    "description":"Tratta il bullismo sul luogo di lavoro e le sue conseguenze."
+                },
+                {
+                    "title":"La shitstorm e il fenomeno degli haters",
+                    "description":"Esamina l'odio online e le reazioni violente."
+                },
+                {
+                    "title":"Utilizzo corretto dei social",
+                    "description":"Discussione sull'uso responsabile dei social media."
+                },
+                {
+                    "title":"Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle Fake news",
+                    "description":"Esplora la distinzione tra informazione e disinformazione e l'importanza di fonti affidabili."
+                },
+                {
+                    "title":"Influenze Post pandemia in ambito sociale",
+                    "description":"Analizza le trasformazioni sociali dovute alla pandemia di COVID-19."
+                },
+                {
+                    "title":"Difesa e valorizzazione patrimonio culturale",
+                    "description":"Discute la conservazione del patrimonio culturale e artistico."
+                },
+                {
+                    "title":"Contrasto alle mafie",
+                    "description":"Tratta la lotta contro le organizzazioni criminali."
+                },
+                {
+                    "title":"Internet e frenesia della vita",
+                    "description":"Analizza l'impatto di Internet sulla nostra vita quotidiana."
+                },
+                {
+                    "title":"Negazionismo e complottismo Denatalità in Italia",
+                    "description":"Esplora le teorie del complotto e le sfide demografiche."
+                },
+                {
+                    "title":"Sostenibilità sociale, ambientale ed economica di un’azienda",
+                    "description":"Discussione sulla sostenibilità aziendale a livello sociale, ambientale ed economico."
+                },
+                {
+                    "title":"Greenwashing",
+                    "description":"Esamina il fenomeno di un'immagine sostenibile falsa o ingannevole da parte delle aziende."
+                }
+            ]
+        }
     ]
 }

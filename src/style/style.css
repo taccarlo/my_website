@@ -4226,7 +4226,9 @@ textarea.form-control-lg {
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
-
+.card-body-gray-bg {
+  background-color: var(--bs-card-cap-bg);
+}
 .card-footer {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
