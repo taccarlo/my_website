@@ -9,8 +9,13 @@ import MyGithub from "./components/pages/myGithub";
 import Didattica from "./components/pages/didattica";
 import GTSA from "./components/pages/GTSA";
 import EdCivica from "./components/pages/edCivica.js";
-import Binario from "./components/pages/binario.js";
+import Binario from "./components/pages/binario/binario.js";
 import './style/style.css';
+import Serie01Binario from "./components/pages/binario/serie01";
+import Serie02Binario from "./components/pages/binario/serie02";
+import AlgebraBooleana from "./components/pages/algebrabooleana/algebrabooleana";
+import IndirizziIP from "./components/pages/indirizzoip/indirizzoip";
+import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidiflusso";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +29,12 @@ const router = createBrowserRouter([
       {path:'/didattica', element: <Didattica/>},
       {path:'/GTSA', element: <GTSA/>},
       {path:'/didattica/edCivica', element: <EdCivica/>},
-      {path:'/didattica/binario', element: <Binario/>}
+      {path:'/didattica/binario', element: <Binario/>},
+      {path:'/didattica/binario/serie01', element: <Serie01Binario/>},
+      {path:'/didattica/binario/serie02', element: <Serie02Binario/>},
+      {path:'/didattica/indirizziip', element: <IndirizziIP/>},
+      {path:'/didattica/diagrammidiflusso', element: <DiagrammiDiFlusso/>},
+      {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>}
     ]},
 ]);
 

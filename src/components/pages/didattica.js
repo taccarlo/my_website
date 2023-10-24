@@ -14,8 +14,10 @@ function Didattica(){
                 <h1>Didattica</h1>
             </div>     
 
-               {/* <h3>Link a canale Youtube</h3> */}
-                <p><Link to="/didattica/binario">Numeri Binari</Link></p>
+                <p><Link to="/didattica/binario">Calcolo Binario</Link></p>
+                <p><Link to="/didattica/algebrabooleana">Algebra Booleana </Link></p>
+                <p><Link to="/didattica/indirizziip">Indirizzi IPv4 CLASSLESS e CLASSFUL</Link></p>
+                <p><Link to="/didattica/diagrammidiflusso">Diagrammi di Flusso</Link></p>
                 <p><Link to="/didattica/edCivica">Educazione civica 23/24</Link></p>
 
             </div>

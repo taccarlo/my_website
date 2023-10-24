@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
-import CardBinario from "../card/Card_binario";
+import CardBinario from "../../card/Card_binario";
+import {Link} from 'react-router-dom';
 function Binario() {
   return (
     <>
@@ -32,6 +33,12 @@ function Binario() {
             cardText="Video che illustra il passaggio da un numero binario a esadecimale"
             youtubeLink="https://www.youtube.com/watch?v=Sr0K_fCCiYM&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=2"
           />
+        </div>
+
+        
+        <div className="row gx-4 gx-lg-5 align-items-center my-5">
+          <p><Link to="/didattica/binario/serie01">Esercizi sul calcolo binario - Serie 01</Link></p>
+          <p><Link to="/didattica/binario/serie02">Esercizi sul calcolo binario - Serie 02</Link></p>
         </div>
       </div>
     </>
