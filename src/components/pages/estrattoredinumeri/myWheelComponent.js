@@ -41,8 +41,8 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
   var downTime = segments.length * downDuration;
   var spinStart = 0;
   var frames = 0;
-  var centerX = 220;
-  var centerY = 220;
+  var centerX = 160;
+  var centerY = 160;
   React.useEffect(function () {
     wheelInit();
     setTimeout(function () {
@@ -61,7 +61,7 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
 
     if (navigator.userAgent.indexOf('MSIE') !== -1) {
       canvas = document.createElement('canvas');
-      canvas.setAttribute('width', 1000);
+      canvas.setAttribute('width', 700);
       canvas.setAttribute('height', 600);
       canvas.setAttribute('id', 'canvas');
       document.getElementById('wheel').appendChild(canvas);
@@ -219,15 +219,15 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
 
   var clear = function clear() {
     var ctx = canvasContext;
-    ctx.clearRect(0, 0, 1000, 800);
+    ctx.clearRect(0, 0, 800, 600);
   };
 
   return /*#__PURE__*/React__default.createElement("div", {
     id: "wheel"
   }, /*#__PURE__*/React__default.createElement("canvas", {
     id: "canvas",
-    width: "1000",
-    height: "800",
+    width: "800",
+    height: "600",
     style: {
       pointerEvents: isFinished && isOnlyOnce ? 'none' : 'auto'
     }

@@ -55,7 +55,6 @@ export default function EstrattoreDiNumeri(){
             {winner!=null ? <h1>Numero estratto: {winner}</h1>:<h1>Gira la ruota!</h1>}
          
                 <MyWheelComponent
-                style={{ padding: "1000px",}}
                 segments={numbers}
                 segColors={segColors}
                 key={versionWheel}
@@ -64,7 +63,7 @@ export default function EstrattoreDiNumeri(){
                 contrastColor="white"
                 buttonText="Gira"
                 isOnlyOnce={false}
-                size={200}
+                size={140}
                 upDuration={500}
                 downDuration={600}
                 fontFamily="Arial"
