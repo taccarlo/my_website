@@ -1,6 +1,6 @@
 import YoutubeEmbed from "../embeddedVideo/YoutubeEmbed";
 
-function CardBinario(props) {
+function CardYoutube(props) {
   return             <div className="col-md-4 mb-5">
   <div className="card h-100">
       <YoutubeEmbed embedId={props.youtubeID} />
@@ -23,4 +23,4 @@ function CardBinario(props) {
 </div>
 ;
 }
-export default CardBinario;
+export default CardYoutube;

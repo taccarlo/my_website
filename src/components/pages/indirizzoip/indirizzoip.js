@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import CardYoutube from "../../card/Card_binario";
 function IndirizziIP() {
   return (
     <>
@@ -10,7 +11,18 @@ function IndirizziIP() {
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Indirizzi IPv4 CLASSLESS e CLASSFUL</h1>
-          <div className="row gx-4 gx-lg-5 align-items-center my-3">
+          </div>
+          <div className="row gx-4 gx-lg-5 my-5">
+            <CardYoutube
+              youtubeID="LEM1F_QXcL0"
+              cardText="inserire descrizione"
+              youtubeLink="https://www.youtube.com/watch?v=LEM1F_QXcL0&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=3"
+            />
+            <CardYoutube
+              youtubeID="uhM0TFn9BuQ"
+              cardText="inserire descrizione"
+              youtubeLink="https://www.youtube.com/watch?v=uhM0TFn9BuQ&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=1"
+            />
           <h1>Esercizio su indirizzi Classful</h1>
             <h5>Classe A</h5>
             <table>
@@ -97,7 +109,7 @@ function IndirizziIP() {
           </h3>
           <p>Individuiamo la classe di appartenenza dell’indirizzo IP 30.50.18.45
           indicando l’indirizzo di rete e di host. </p><p>Come prima operazione,
-          traduciamo da deci-male a binario il primo ottetto, ottenendo 3010 =
+          traduciamo da decimale a binario il primo ottetto, ottenendo 3010 =
           0001 1110 in base 2: dato che il primo bit è uguale a 0, siamo in presenza di
           un indirizzo di <b>classe A</b>: l’indirizzo di rete è quindi composto da 7
           bit: 001 1110 in base 2;</p> <p>L’indirizzo dell’host è composto da 24 bit: 50.18.45 in base 10 = 00110010.0010010.00101101 in base 2</p>
@@ -108,7 +120,7 @@ function IndirizziIP() {
           <h3>
             Individuare l'indirizzo IP partendo da una maschera qualsiasi
           </h3>
-          <p>In questo esempio vogliamo calcolare l’indirizzo della rete di appartenenza di un host, partendo dall’in-dirizzo IP e dalla subnet mask. Prendiamo in esame il seguente indirizzo IP di un determinato host:170.223.75.16/18 cioè con subnet 255.255.192.0
+          <p>In questo esempio vogliamo calcolare l’indirizzo della rete di appartenenza di un host, partendo dall’indirizzo IP e dalla subnet mask. Prendiamo in esame il seguente indirizzo IP di un determinato host:170.223.75.16/18 cioè con subnet 255.255.192.0
             </p><p>Per prima cosa  trasformiamo i valori, sia dell’indirizzo IP che della maschera, in base binaria:</p>
 
               <p>170.223.75.16 (10101010.11011111. 01001011.00010000)</p>
@@ -124,7 +136,6 @@ function IndirizziIP() {
               </p>
           </div>
         </div>
-      </div>
     </>
   );
 }

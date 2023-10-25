@@ -16,6 +16,7 @@ import Serie02Binario from "./components/pages/binario/serie02";
 import AlgebraBooleana from "./components/pages/algebrabooleana/algebrabooleana";
 import IndirizziIP from "./components/pages/indirizzoip/indirizzoip";
 import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidiflusso";
+import Estrattoredinumeri from "./components/pages/estrattoredinumeri/estrattoredinumeri";
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,8 @@ const router = createBrowserRouter([
       {path:'/didattica/binario/serie02', element: <Serie02Binario/>},
       {path:'/didattica/indirizziip', element: <IndirizziIP/>},
       {path:'/didattica/diagrammidiflusso', element: <DiagrammiDiFlusso/>},
-      {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>}
+      {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>},
+      {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>}
     ]},
 ]);
 
