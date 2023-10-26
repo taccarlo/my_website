@@ -14,14 +14,14 @@ function IndirizziIP() {
           </div>
           <div className="row gx-4 gx-lg-5 my-5">
             <CardYoutube
-              youtubeID="LEM1F_QXcL0"
-              cardText="inserire descrizione"
-              youtubeLink="https://www.youtube.com/watch?v=LEM1F_QXcL0&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=3"
+              youtubeID="r-_QDisHWI8"
+              cardText="Indirizzamento Classful IPv4"
+              youtubeLink="https://www.youtube.com/watch?v=r-_QDisHWI8"
             />
             <CardYoutube
-              youtubeID="uhM0TFn9BuQ"
-              cardText="inserire descrizione"
-              youtubeLink="https://www.youtube.com/watch?v=uhM0TFn9BuQ&list=PLDHWK63BVywzR2AUyCjaiPYyQvRZ3SXd8&index=1"
+              youtubeID="zDOqyAqmEnk"
+              cardText="Indirizzamento Classless IPv4"
+              youtubeLink="https://www.youtube.com/watch?v=zDOqyAqmEnk"
             />
           <h1>Esercizio su indirizzi Classful</h1>
             <h5>Classe A</h5>
