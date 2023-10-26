@@ -46,6 +46,9 @@ function Serie02Binario() {
           </p>
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
     </>
   );
 }

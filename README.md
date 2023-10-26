@@ -32,3 +32,5 @@ npm run build
 
 ## TODO: 
 - Test SEO friendly
+- Fix WheelComponent and move to an external package
+- footer in mobile phone problem on bottom of the body
