@@ -3,6 +3,7 @@ import '../../../style/style.css';
 import es02 from './es_logica_02.jpg'
 import es03 from './es_logica_03.jpg'
 import es04 from './es_logica_04.jpg'
+import es_travestimento from './es_travestimento.jpg'
 import CardYoutube from "../../card/Card_binario";
 function AlgebraBooleana() {
   return (
@@ -180,7 +181,24 @@ function AlgebraBooleana() {
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <img src={es04} alt="Esercizio algebra booleana"></img>
         </div>
-
+        <h3>Esercizio</h3>
+        Ad una festa in maschera il padrone di casa costruisce un rilevatore automatico di costume per determinare quali persone ammettere.
+        La regola è la seguente:
+        <ul>
+          <li>Le persone devono avere baffi finti e occhiali</li>
+          <li>Inoltre devono avere o scarpe da pagliaccio o cappello da pirata</li>
+          <li>Oppure devono avere un vestito in maschera completo</li>
+          <li>Ma non è ammesso chi ha un cane</li>
+        </ul>
+        Un custode preme i tasti di un circuito e in risposta ottiene / non ottiene un segnale se la persona è ammessa / non ammessa.
+        
+        <div className="row gx-4 gx-lg-5 align-items-center my-5">
+          <img src={es_travestimento} alt="Esercizio sul travestimento"></img>
+        </div>
+        <h3>Esercizio</h3>
+        Un impianto chimico è dotato di un sistema di allarme automatico che segnala le situazioni anormali. L'allarme suona quando risulta soddisfatta la seguente condizione:
+        <p><i>La temperatura della caldaia è maggiore di 170 gradi e la pressione è superiore a 2 atmosfere, oppure non affluisce combustibile e la temperatura della caldaia è inferiore a 170 gradi.</i></p>
+        Costruire una tabella di verità che indichi quando l'allarme è in funzione e ricavare la funzione corrispondente.
       </div>
     </>
   );
