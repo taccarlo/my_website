@@ -191,9 +191,11 @@ function AlgebraBooleana() {
           <li>Ma non è ammesso chi ha un cane</li>
         </ul>
         Un custode preme i tasti di un circuito e in risposta ottiene / non ottiene un segnale se la persona è ammessa / non ammessa.
-        
-        <div className="row gx-4 gx-lg-5 align-items-center my-5">
-          <img src={es_travestimento} alt="Esercizio sul travestimento"></img>
+       
+        <div className="row gx-4 gx-lg-5 align-items-center my-5"> <h3>
+          Soluzione: 
+        </h3><p>(((BAFFI AND OCCHIALI) AND (SCARPE OR CAPPELLO)) OR VESTITO ) AND NOT(CANE)</p>
+          <img src={es_travestimento} style ={{maxWidth:400}} alt="Esercizio sul travestimento"></img>
         </div>
         <h3>Esercizio</h3>
         Un impianto chimico è dotato di un sistema di allarme automatico che segnala le situazioni anormali. L'allarme suona quando risulta soddisfatta la seguente condizione:

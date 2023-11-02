@@ -1,16 +1,15 @@
 import { Helmet } from 'react-helmet-async';
-import MyWheelComponent from './myWheelComponent';
+import WheelComponent from './WheelComponent';
 import {useState} from 'react';
 
 export default function EstrattoreDiNumeri(){
-    const[numbers, setNumbers]= useState(["1","2","3","4"]);
+    const[numbers, setNumbers]= useState(["1","2","3","4","5","6","7","8","9","10"]);
     const[removeLast, setRemoveLast]=useState(true);
     const[versionWheel,setVersionWheel]=useState(0);
     const[upperNumber,setUpperNumber]=useState(0);
     const[winner,setWinner]=useState(null);
     const segColors = ["#3DA5E0"];
     const onFinished = (winner) => {
-        console.log(winner);
         setWinner(winner);
         if(removeLast&&numbers.length>2){
             setNumbers(numbers.filter(a=>a!==winner));
@@ -22,7 +21,6 @@ export default function EstrattoreDiNumeri(){
             let i;
             let array=[];
             for(i=0;i<upperNumber;i++){
-                console.log((i+1).toString());
                 array.push((i+1).toString())
             }
             setNumbers(array);
@@ -37,7 +35,7 @@ export default function EstrattoreDiNumeri(){
         </Helmet>
             <div className="container px-4 px-lg-5">
             <div style={{textAlign:'center'}}> 
-            <MyWheelComponent
+            <WheelComponent
                 segments={numbers}
                 segColors={segColors}
                 key={versionWheel}
@@ -66,7 +64,7 @@ export default function EstrattoreDiNumeri(){
                       <div className="card-footer">
                         <label>
                 Numero di caselle:<br/>
-                <input type="number" defaultValue={4} onChange={e=>setUpperNumber(e.target.value)}/>
+                <input type="number" defaultValue={10} onChange={e=>setUpperNumber(e.target.value)}/>
                 </label><br/>
                 <label>Rimuovi numero estratto{' '}
                 <input type="checkbox" checked={removeLast} onChange={e => setRemoveLast(e.target.checked)} />

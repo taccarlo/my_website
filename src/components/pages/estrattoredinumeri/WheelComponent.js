@@ -3,7 +3,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 let React = require('react');
 let React__default = _interopDefault(React);
 
-let MyWheelComponent = function MyWheelComponent(_ref) {
+let WheelComponent = function WheelComponent(_ref) {
   let segments = _ref.segments,
       segColors = _ref.segColors,
       winningSegment = _ref.winningSegment,
@@ -57,7 +57,6 @@ let MyWheelComponent = function MyWheelComponent(_ref) {
 
   let initCanvas = function initCanvas() {
     let canvas = document.getElementById('canvas');
-    console.log(navigator);
 
     if (navigator.userAgent.indexOf('MSIE') !== -1) {
       canvas = document.createElement('canvas');
@@ -234,5 +233,4 @@ let MyWheelComponent = function MyWheelComponent(_ref) {
   }));
 };
 
-module.exports = MyWheelComponent;
-//# sourceMappingURL=index.js.map
+module.exports = WheelComponent
