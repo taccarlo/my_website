@@ -19,6 +19,7 @@ function Didattica(){
                 <p><Link to="/didattica/indirizziip">Indirizzi IPv4 CLASSLESS e CLASSFUL</Link></p>
                 <p><Link to="/didattica/diagrammidiflusso">Diagrammi di Flusso</Link></p>
                 <p><Link to="/didattica/edCivica">Educazione civica 23/24</Link></p>
+                <p><Link to="/didattica/countdown">CountDown</Link></p>
                 <p><Link to="/didattica/estrattoredinumeri">Estrattore di numeri casuali senza ripetizione</Link></p>
 
             </div>

@@ -200,6 +200,7 @@ function AlgebraBooleana() {
         <p><i>La temperatura della caldaia è maggiore di 170 gradi e la pressione è superiore a 2 atmosfere, oppure non affluisce combustibile e la temperatura della caldaia è inferiore a 170 gradi.</i></p>
         Costruire una tabella di verità che indichi quando l'allarme è in funzione e ricavare la funzione corrispondente.
       </div>
+      <br/><br/>
     </>
   );
 }

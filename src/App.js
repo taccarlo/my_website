@@ -17,6 +17,7 @@ import AlgebraBooleana from "./components/pages/algebrabooleana/algebrabooleana"
 import IndirizziIP from "./components/pages/indirizzoip/indirizzoip";
 import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidiflusso";
 import Estrattoredinumeri from "./components/pages/estrattoredinumeri/estrattoredinumeri";
+import CountDown from "./components/pages/countdown/countdown";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       {path:'/myGithub', element: <MyGithub/>},
       {path:'/didattica', element: <Didattica/>},
       {path:'/GTSA', element: <GTSA/>},
+      {path:'/didattica/countdown', element: <CountDown/>},
       {path:'/didattica/edCivica', element: <EdCivica/>},
       {path:'/didattica/binario', element: <Binario/>},
       {path:'/didattica/binario/serie01', element: <Serie01Binario/>},

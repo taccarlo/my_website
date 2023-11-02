@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet-async';
-import WheelComponent from "react-wheel-of-prizes";
 import MyWheelComponent from './myWheelComponent';
 import {useState} from 'react';
 
@@ -9,7 +8,6 @@ export default function EstrattoreDiNumeri(){
     const[versionWheel,setVersionWheel]=useState(0);
     const[upperNumber,setUpperNumber]=useState(0);
     const[winner,setWinner]=useState(null);
-    //const[numbersToExclude,setNumbersToExclude]=useState("");
     const segColors = ["#3DA5E0"];
     const onFinished = (winner) => {
         console.log(winner);
