@@ -1,10 +1,10 @@
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var React = require('react');
-var React__default = _interopDefault(React);
+let React = require('react');
+let React__default = _interopDefault(React);
 
-var MyWheelComponent = function MyWheelComponent(_ref) {
-  var segments = _ref.segments,
+let MyWheelComponent = function MyWheelComponent(_ref) {
+  let segments = _ref.segments,
       segColors = _ref.segColors,
       winningSegment = _ref.winningSegment,
       onFinished = _ref.onFinished,
@@ -24,25 +24,25 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
       downDuration = _ref$downDuration === void 0 ? 1000 : _ref$downDuration,
       _ref$fontFamily = _ref.fontFamily,
       fontFamily = _ref$fontFamily === void 0 ? 'proxima-nova' : _ref$fontFamily;
-  var currentSegment = '';
-  var isStarted = false;
+  let currentSegment = '';
+  let isStarted = false;
 
-  var _useState = React.useState(false),
+  let _useState = React.useState(false),
       isFinished = _useState[0],
       setFinished = _useState[1];
 
-  var timerHandle = 0;
-  var timerDelay = segments.length;
-  var angleCurrent = 0;
-  var angleDelta = 0;
-  var canvasContext = null;
-  var maxSpeed = Math.PI / ("" + segments.length);
-  var upTime = segments.length * upDuration;
-  var downTime = segments.length * downDuration;
-  var spinStart = 0;
-  var frames = 0;
-  var centerX = 160;
-  var centerY = 160;
+  let timerHandle = 0;
+  let timerDelay = segments.length;
+  let angleCurrent = 0;
+  let angleDelta = 0;
+  let canvasContext = null;
+  let maxSpeed = Math.PI / ("" + segments.length);
+  let upTime = segments.length * upDuration;
+  let downTime = segments.length * downDuration;
+  let spinStart = 0;
+  let frames = 0;
+  let centerX = 160;
+  let centerY = 160;
   React.useEffect(function () {
     wheelInit();
     setTimeout(function () {
@@ -50,13 +50,13 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     }, 0);
   }, []);
 
-  var wheelInit = function wheelInit() {
+  let wheelInit = function wheelInit() {
     initCanvas();
     wheelDraw();
   };
 
-  var initCanvas = function initCanvas() {
-    var canvas = document.getElementById('canvas');
+  let initCanvas = function initCanvas() {
+    let canvas = document.getElementById('canvas');
     console.log(navigator);
 
     if (navigator.userAgent.indexOf('MSIE') !== -1) {
@@ -71,7 +71,7 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     canvasContext = canvas.getContext('2d');
   };
 
-  var spin = function spin() {
+  let spin = function spin() {
     isStarted = true;
 
     if (timerHandle === 0) {
@@ -82,12 +82,12 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     }
   };
 
-  var onTimerTick = function onTimerTick() {
+  let onTimerTick = function onTimerTick() {
     frames++;
     draw();
-    var duration = new Date().getTime() - spinStart;
-    var progress = 0;
-    var finished = false;
+    let duration = new Date().getTime() - spinStart;
+    let progress = 0;
+    let finished = false;
 
     if (duration < upTime) {
       progress = duration / upTime;
@@ -125,21 +125,21 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     }
   };
 
-  var wheelDraw = function wheelDraw() {
+  let wheelDraw = function wheelDraw() {
     clear();
     drawWheel();
     drawNeedle();
   };
 
-  var draw = function draw() {
+  let draw = function draw() {
     clear();
     drawWheel();
     drawNeedle();
   };
 
-  var drawSegment = function drawSegment(key, lastAngle, angle) {
-    var ctx = canvasContext;
-    var value = segments[key];
+  let drawSegment = function drawSegment(key, lastAngle, angle) {
+    let ctx = canvasContext;
+    let value = segments[key];
     ctx.save();
     ctx.beginPath();
     ctx.moveTo(centerX, centerY);
@@ -158,19 +158,19 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     ctx.restore();
   };
 
-  var drawWheel = function drawWheel() {
-    var ctx = canvasContext;
-    var lastAngle = angleCurrent;
-    var len = segments.length;
-    var PI2 = Math.PI * 2;
+  let drawWheel = function drawWheel() {
+    let ctx = canvasContext;
+    let lastAngle = angleCurrent;
+    let len = segments.length;
+    let PI2 = Math.PI * 2;
     ctx.lineWidth = 1;
     ctx.strokeStyle = primaryColor;
     ctx.textBaseline = 'middle';
     ctx.textAlign = 'center';
     ctx.font = '1em ' + fontFamily;
 
-    for (var i = 1; i <= len; i++) {
-      var angle = PI2 * (i / len) + angleCurrent;
+    for (let i = 1; i <= len; i++) {
+      let angle = PI2 * (i / len) + angleCurrent;
       drawSegment(i - 1, lastAngle, angle);
       lastAngle = angle;
     }
@@ -195,8 +195,8 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     ctx.stroke();
   };
 
-  var drawNeedle = function drawNeedle() {
-    var ctx = canvasContext;
+  let drawNeedle = function drawNeedle() {
+    let ctx = canvasContext;
     ctx.lineWidth = 1;
     ctx.strokeStyle = contrastColor;
     ctx.fileStyle = contrastColor;
@@ -206,8 +206,8 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     ctx.lineTo(centerX, centerY - 70);
     ctx.closePath();
     ctx.fill();
-    var change = angleCurrent + Math.PI / 2;
-    var i = segments.length - Math.floor(change / (Math.PI * 2) * segments.length) - 1;
+    let change = angleCurrent + Math.PI / 2;
+    let i = segments.length - Math.floor(change / (Math.PI * 2) * segments.length) - 1;
     if (i < 0) i = i + segments.length;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
@@ -217,8 +217,8 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     isStarted && ctx.fillText(currentSegment, centerX + 10, centerY + size + 50);
   };
 
-  var clear = function clear() {
-    var ctx = canvasContext;
+  let clear = function clear() {
+    let ctx = canvasContext;
     ctx.clearRect(0, 0, 800, 600);
   };
 
@@ -226,8 +226,8 @@ var MyWheelComponent = function MyWheelComponent(_ref) {
     id: "wheel"
   }, /*#__PURE__*/React__default.createElement("canvas", {
     id: "canvas",
-    width: "800",
-    height: "600",
+    width: "330",
+    height: "330",
     style: {
       pointerEvents: isFinished && isOnlyOnce ? 'none' : 'auto'
     }

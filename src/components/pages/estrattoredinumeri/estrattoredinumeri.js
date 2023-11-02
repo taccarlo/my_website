@@ -36,23 +36,8 @@ export default function EstrattoreDiNumeri(){
             <link rel = "canonical" href = "/didattica/estrattoredinumeri" />
         </Helmet>
             <div className="container px-4 px-lg-5">
-            <div className="row gx-4 gx-lg-1 align-items-center my-2">
-            
-            <label>
-                Numero di caselle:
-                <input type="number" defaultValue={4} onChange={e=>setUpperNumber(e.target.value)}/>
-            </label>
-            <label>
-                Rimuovi ultimo numero estratto dalla lista:
-                <input type="checkbox" checked={removeLast} onChange={e => setRemoveLast(e.target.checked)} />
-            </label>
-
-                </div>
-            <button  className="btn btn-primary btn-sm" onClick={updateWheel}>Aggiorna</button>
-             
-            {winner!=null ? <h1>Numero estratto: {winner}</h1>:<h1>Gira la ruota!</h1>}
-         
-                <MyWheelComponent
+            <div style={{textAlign:'center'}}> 
+            <MyWheelComponent
                 segments={numbers}
                 segColors={segColors}
                 key={versionWheel}
@@ -62,11 +47,35 @@ export default function EstrattoreDiNumeri(){
                 buttonText="Gira"
                 isOnlyOnce={false}
                 size={140}
-                upDuration={500}
-                downDuration={600}
-                fontFamily="Arial"
-                />
+                upDuration={numbers>15?250:500}
+                downDuration={numbers>15?300:600}
+                fontFamily="Arial"  
+                /></div>
+              
             </div>
+            
+
+      
+      <div className="container px-4 px-lg-5">
+                  <div className="card h-100">
+                      <div className="card-body">
+                      {winner!=null ? <h2 className="card-title">Numero estratto: {winner}</h2>:<h1>Gira la ruota!</h1>}
+            
+           
+                        </div>
+                      <div className="card-footer">
+                        <label>
+                Numero di caselle:<br/>
+                <input type="number" defaultValue={4} onChange={e=>setUpperNumber(e.target.value)}/>
+                </label><br/>
+                <label>Rimuovi numero estratto{' '}
+                <input type="checkbox" checked={removeLast} onChange={e => setRemoveLast(e.target.checked)} />
+                </label><br/>
+                <button  className="btn btn-primary btn-sm" onClick={updateWheel}>Aggiorna</button>
+             
+                </div>
+                  </div>
+              </div>
         </>;
 }
 /*

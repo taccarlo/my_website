@@ -2,11 +2,14 @@ import Countdown from "react-countdown";
 import { useState } from "react";
 export default function CountDown() {
   const [date, setDate] = useState(Date.now() + 60000*30);
-
+  const[versionNum, setVersionNum]=useState(0);
+    
   const change = (num) => {
     let delay = parseInt(num);
-    if(!isNaN(delay)&&delay>0)
-        setDate(Date.now() + delay * 60000);
+    if(!isNaN(delay)&&delay>0){
+      setDate(Date.now() + delay * 60000);
+      setVersionNum(versionNum+1)
+    }
   };
 
   return (
@@ -17,7 +20,8 @@ export default function CountDown() {
             <div className="card h-100">
               <div className="card-body">
                 <h1 className="card-title">
-                  <Countdown date={date} />
+                  <Countdown date={date} 
+                key={versionNum} />
                 </h1>
               </div>
               <div className="card-footer">
@@ -30,6 +34,7 @@ export default function CountDown() {
               </div>
         </div>
       </div>
+      
     </div>
   );
 }

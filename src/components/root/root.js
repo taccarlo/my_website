@@ -7,6 +7,8 @@ function RootLayout(){
         <>
             <Header/>
             <Outlet/>
+            <br/>
+            <br/>
             <Footer/>
         </>
     )
