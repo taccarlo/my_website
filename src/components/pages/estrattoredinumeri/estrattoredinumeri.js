@@ -8,7 +8,7 @@ export default function EstrattoreDiNumeri(){
     const[versionWheel,setVersionWheel]=useState(0);
     const[upperNumber,setUpperNumber]=useState(0);
     const[winner,setWinner]=useState(null);
-    const segColors = ["#3DA5E0"];
+    const segColors = ["#68bbe3"];
     const onFinished = (winner) => {
         setWinner(winner);
         if(removeLast&&numbers.length>2){
