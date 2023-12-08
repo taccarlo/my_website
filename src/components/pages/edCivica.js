@@ -7,7 +7,7 @@ function EdCivica() {
   return (
     <>
       <Helmet>
-        <title>Educazione Civica</title>
+        <title></title>
         <meta
           name="description"
           content="Parte relativa all'educazione civica"
@@ -16,7 +16,7 @@ function EdCivica() {
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-3">
-          <h1>Educazione civica 22/23</h1>
+          <h1>InformEtica 24</h1>
         </div>
         <div className="card text-white bg-secondary my-5 py-4 ">
           <div className="card-body">
@@ -26,10 +26,6 @@ function EdCivica() {
                 <li>
                   Gli studenti dovranno fare un elaborato sui seguenti temi
                   con un documento formato powerpoint.
-                </li>
-                <li>
-                  Gli elaborati andranno consegnati sul registro elettronico
-                  entro la fine delle vacanze di natale.
                 </li>
                 <li>
                   Nel documento dovranno essere inserite alcune immagini
@@ -47,16 +43,18 @@ function EdCivica() {
                   elementi specifici.
                 </li>
                 <li>
-                  L’esposizione totale delle slide dovrà durare circa da 5 a 7
+                  L’esposizione totale delle slide dovrà durare circa 5
                   minuti
                 </li>
                 <li>
-                  Dovrà essere presente nel documento un link ad un video che
-                  parla dell’argomento
+                  Dovranno essere presenti collegamenti ipertestuali
                 </li>
                 <li>
                   Le informazioni citate dovranno essere corredate da
                   opportuna sitografia o bibliografia
+                </li>
+                <li>
+                  Si sta valutando l'ipotesi di autovalutazione del progetto, il voto sarà quindi frutto di una decisione concordata tra studente, docente ed il resto della classe.
                 </li>
                 <li>Per qualsiasi questione potete inviarmi una email.</li>
               </ul>

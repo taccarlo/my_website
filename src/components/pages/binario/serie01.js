@@ -18,10 +18,10 @@ function Serie01Binario() {
           </h3>
           <p>
             <ul>
-              <li>134</li>
-              <li>67</li>
-              <li>98</li>
-              <li>254</li>
+              <li>134<sub>10</sub></li>
+              <li>67<sub>10</sub></li>
+              <li>98<sub>10</sub></li>
+              <li>254<sub>10</sub></li>
             </ul>
           </p>
           <h3>
@@ -29,10 +29,10 @@ function Serie01Binario() {
           </h3>
           <p>
             <ul>
-              <li>10100011</li>
-              <li>01100110</li>
-              <li>10100001</li>
-              <li>10010100</li>
+              <li>10100011<sub>2</sub></li>
+              <li>01100110<sub>2</sub></li>
+              <li>10100001<sub>2</sub></li>
+              <li>10010100<sub>2</sub></li>
             </ul>
           </p>
           <h3>
@@ -40,8 +40,8 @@ function Serie01Binario() {
           </h3>
           <p>
             <ul>
-              <li>01100110011011</li>
-              <li>111100110011011</li>
+              <li>01100110011011<sub>2</sub></li>
+              <li>111100110011011<sub>2</sub></li>
             </ul>
           </p>
         </div>
