@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import jsonString from "../../data/edCivica.json";
 import TopicList from "../list/topicList/topicList";
+
 function EdCivica() {
   let edCivicaList = jsonString["temi"];
 
@@ -15,57 +16,28 @@ function EdCivica() {
         <link rel="canonical" href="/didattica/edCivica" />
       </Helmet>
       <div className="container px-4 px-lg-5">
-        <div className="row gx-4 gx-lg-5 align-items-center my-3">
-          <h1>InformEtica 24</h1>
+        <div className="row gx-5 gx-lg-5 text-center my-5">
+          <h1 className="ShortBabyTitle">InformEtica 24</h1>
         </div>
-        <div className="card text-white bg-secondary my-5 py-4 ">
-          <div className="card-body">
-            <p className="text-white m-0">
-              <h3>Istruzioni</h3>
-              <ul>
-                <li>
-                  Gli studenti dovranno fare un elaborato sui seguenti temi
-                  con un documento formato powerpoint.
-                </li>
-                <li>
-                  Nel documento dovranno essere inserite alcune immagini
-                </li>
-                <li>
-                  Le sezioni del documento dovranno essere ben delineate
-                </li>
-                <li>
-                  Lo stile che il documento dovrà seguire è a cura dello
-                  studente ma dovrà essere coerente in tutta la sua interezza
-                  come tipologie di font e dimensione dei caratteri
-                </li>
-                <li>
-                  Dovranno essere presenti animazioni tra slide e sugli
-                  elementi specifici.
-                </li>
-                <li>
-                  L’esposizione totale delle slide dovrà durare circa 5
-                  minuti
-                </li>
-                <li>
-                  Dovranno essere presenti collegamenti ipertestuali
-                </li>
-                <li>
-                  Le informazioni citate dovranno essere corredate da
-                  opportuna sitografia o bibliografia
-                </li>
-                <li>
-                  Si sta valutando l'ipotesi di autovalutazione del progetto, il voto sarà quindi frutto di una decisione concordata tra studente, docente ed il resto della classe.
-                </li>
-                <li>Per qualsiasi questione potete inviarmi una email.</li>
-              </ul>
-            </p>
-          </div>
+        <div className="row gx-5 gx-lg-5 my-5">
+          <p>
+            Benvenuti a <i>InformEtica 24</i>, il concorso di educazione civica che mette alla prova la creatività e l'impegno degli studenti nel promuovere la consapevolezza civica attraverso elaborati scritti e video coinvolgenti.
+          </p>
+          <p>
+            Ogni studente avrà l'opportunità di esprimere le proprie idee e riflessioni su temi cruciali per la nostra società attraverso un elaborato scritto. Una volta completati gli elaborati, ogni classe avrà il compito di selezionare il proprio vincitore, basandosi su criteri come originalità, coerenza e impatto delle idee presentate.
+          </p>
+          <p>
+            I vincitori di ogni classe avranno poi l'occasione di trasformare le proprie idee in un breve video di 5 minuti, utilizzando la creatività e le competenze digitali per comunicare in modo efficace il messaggio di educazione civica. Questi video saranno successivamente condivisi con il pubblico durante l'evento finale di <i>InformEtica 24</i>.
+          </p>
+          <p>
+            Ma qui non finisce: il pubblico avrà il potere di votare il video più bello, quello che meglio riesce a trasmettere il messaggio di educazione civica in modo coinvolgente e significativo. Il video con il maggior numero di voti vincerà il concorso, e sarà quindi lo studente più talentuoso tra le centinaia di partecipanti!
+          </p>
         </div>
       
         {
           edCivicaList.map((item) =>(
               <div className="card my-3" key={item.index}>
-                <div className="card-header  bg-secondary text-white">{item["topic"]} </div>
+                <div className="card-header  bg-blue text-white">{item["topic"]} </div>
                 <div className="card-body card-body-gray-bg">
                   <TopicList list={item["list"]}/>
                 </div>
@@ -75,7 +47,7 @@ function EdCivica() {
 
         <div className="row gx-4 gx-lg-5 align-items-center my-3">
 
-          <div className="card text-white bg-secondary my-5 py-4 ">
+          <div className="card text-white bg-blue my-5 py-4 ">
             <div className="card-body">
               <p className="text-white m-0">
                 <h3>Struttura del documento:</h3>
@@ -90,10 +62,16 @@ function EdCivica() {
                     fonti){" "}
                   </li>
                 </ul>
-              </p>
-            </div>
+              <h3>Informazioni</h3>
+              <ul>
+                <li>
+                  Durata dell'esposizione: 5 minuti.
+                </li>
+              </ul>
+            </p>
           </div>
         </div>
+          </div>
           </div>
     </>
   );

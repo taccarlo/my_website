@@ -36,6 +36,7 @@
   --bs-gray-900: #212529;
   --bs-primary: #779ecb;
   --bs-secondary: #6c757d;
+  --bs-blue: #779ecb;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -44,6 +45,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
+  --bs-blue-rgb: 119, 158, 203;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -89,6 +91,17 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+@font-face {
+  font-family:'ShortBaby';
+  src: local('ShortBaby'), url('./ShortBaby.ttf') format('truetype')
+}
+
+.ShortBabyTitle{
+  font-family:'ShortBaby';
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 
 body {
@@ -8129,6 +8142,16 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-blue-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-light-blue {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
