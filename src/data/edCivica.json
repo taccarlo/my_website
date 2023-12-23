@@ -1,7 +1,67 @@
 {
     
     "temi" : [
-
+        {
+            "topic":"Temi su salute e benessere mentale",
+            "list":[
+                {
+                    "title":"Bullismo e cyberbullismo",
+                    "description":"Analisi del bullismo tradizionale e delle forme online di aggressione."
+                },
+                {
+                    "title":"Il body shaming",
+                    "description":"Analisi delle critiche al corpo e dei pregiudizi basati sull'aspetto fisico."
+                },
+                {
+                    "title":"Ergonomia, computer e salute",
+                    "description":"Esplora l'importanza dell'ergonomia nella prevenzione di problemi di salute legati all'uso del computer."
+                },
+                {
+                    "title":"Ansia in contesto scolastico",
+                    "description":"Discussione sull'ansia legata agli studi e alle pressioni accademiche."
+                },
+                {
+                    "title":"Abuso di sostanze",
+                    "description":"Esplora le conseguenze dell'abuso di droghe e alcol sulla salute e sulla società."
+                },
+                {
+                    "title":"Catfishing",
+                    "description":"Discute il fenomeno del catfishing e le relazioni online ingannevoli (si può citare anche il caso Roberto Zaccaria)."
+                },
+                {
+                    "title":"Love Bombing, Ghosting e amore sui social",
+                    "description":"Il love bombing e il ghosting sono fenomeni legati al contesto delle relazioni interpersonali, e sempre più spesso si manifestano anche nell'ambito dell'amore sui social, specialmente tra giovani e adolescenti."
+                },
+                {
+                    "title":"I tipi di bullismo",
+                    "description":"Verbale, fisico e sociale: Esamina le diverse modalità di bullismo e i danni che provocano."
+                },
+                {
+                    "title":"Smart working, pro e contro",
+                    "description":"Valutazione dei vantaggi e svantaggi del lavoro da remoto."
+                },
+                {
+                    "title":"Tristezza comune e depressione clinica",
+                    "description":"Confronto tra la tristezza comune e la depressione clinica."
+                },
+                {
+                    "title":"Educazione alla salute: il fumo",
+                    "description":"Tratta le conseguenze del fumo sulla salute."
+                },
+                {
+                    "title":"Accettazione del proprio corpo: Anoressia e obesità",
+                    "description":"Esamina le sfide legate all'immagine corporea e i disturbi alimentari."
+                },
+                {
+                    "title":"Whitewashing",
+                    "description":"Analisi di una pratica dell'industria cinematografica in cui un attore caucasico ottiene il ruolo di un personaggio storicamente di un'altra etnia."
+                },
+                {
+                    "title":"Educazione alla salute: l'abuso di alcool",
+                    "description":"Discute i problemi legati all'abuso di alcol sulla salute."
+                }
+            ]
+        },
         {
             "topic":"Temi sulla riduzione delle disuguaglianze",
             "list":[
@@ -38,67 +98,6 @@
                     "description":"Discussione sulla sovraffollamento carcerario e il sistema penitenziario."
                 }
                 
-            ]
-        },
-        {
-            "topic":"Temi su salute e benessere mentale",
-            "list":[
-                {
-                    "title":"Whitewashing",
-                    "description":"Analisi di una pratica dell'industria cinematografica in cui un attore caucasico ottiene il ruolo di un personaggio storicamente di un'altra etnia."
-                },
-                {
-                    "title":"Abuso di sostanze",
-                    "description":"Esplora le conseguenze dell'abuso di droghe e alcol sulla salute e sulla società."
-                },
-                {
-                    "title":"Catfishing e amore sui social",
-                    "description":"Discute il fenomeno del catfishing e le relazioni online ingannevoli (si può citare anche il caso Roberto Zaccaria)."
-                },
-                {
-                    "title":"Love Bombing, Ghosting e amore sui social",
-                    "description":"Il love bombing e il ghosting sono fenomeni legati al contesto delle relazioni interpersonali, e sempre più spesso si manifestano anche nell'ambito dell'amore sui social, specialmente tra giovani e adolescenti."
-                },
-                {
-                    "title":"Bullismo e cyberbullismo",
-                    "description":"Analisi del bullismo tradizionale e delle forme online di aggressione."
-                },
-                {
-                    "title":"I tipi di bullismo",
-                    "description":"Verbale, fisico e sociale: Esamina le diverse modalità di bullismo e i danni che provocano."
-                },
-                {
-                    "title":"Smart working, pro e contro",
-                    "description":"Valutazione dei vantaggi e svantaggi del lavoro da remoto."
-                },
-                {
-                    "title":"Ergonomia, computer e salute",
-                    "description":"Esplora l'importanza dell'ergonomia nella prevenzione di problemi di salute legati all'uso del computer."
-                },
-                {
-                    "title":"Ansia in contesto scolastico",
-                    "description":"Discussione sull'ansia legata agli studi e alle pressioni accademiche."
-                },
-                {
-                    "title":"Differenza tra tristezza e depressione",
-                    "description":"Confronto tra la tristezza comune e la depressione clinica."
-                },
-                {
-                    "title":"Educazione alla salute: il fumo",
-                    "description":"Tratta le conseguenze del fumo sulla salute."
-                },
-                {
-                    "title":"Accettazione del proprio corpo: Anoressia e obesità",
-                    "description":"Esamina le sfide legate all'immagine corporea e i disturbi alimentari."
-                },
-                {
-                    "title":"Il body shaming",
-                    "description":"Analisi delle critiche al corpo e dei pregiudizi basati sull'aspetto fisico."
-                },
-                {
-                    "title":"Educazione alla salute: l’abuso di alcool",
-                    "description":"Discute i problemi legati all'abuso di alcol sulla salute."
-                }
             ]
         },
         {
@@ -179,8 +178,12 @@
                     "description":"Esamina l'odio online e le reazioni violente."
                 },
                 {
-                    "title":"Utilizzo corretto dei social",
+                    "title":"Utilizzo corretto dei social nella vita di tutti i giorni e diritto alla disconnessione nel mondo del lavoro",
                     "description":"Discussione sull'uso responsabile dei social media."
+                },
+                {
+                    "title":"Sindrome da Burn Out e ambienti di lavoro tossici",
+                    "description":"Analisi del burnout, un insieme che deriva da una condizione di stress cronico e persistente, associato al contesto lavorativo"
                 },
                 {
                     "title":"Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle fake news",

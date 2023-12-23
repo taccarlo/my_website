@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyGithub from "./components/pages/myGithub";
 import Didattica from "./components/pages/didattica";
 import GTSA from "./components/pages/GTSA";
-import EdCivica from "./components/pages/edCivica.js";
+import EdCivica from "./components/pages/edCivica/edCivica.js";
 import Binario from "./components/pages/binario/binario.js";
 import './style/style.css';
 import Serie01Binario from "./components/pages/binario/serie01";
