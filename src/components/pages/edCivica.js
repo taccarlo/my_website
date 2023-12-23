@@ -30,7 +30,10 @@ function EdCivica() {
             I vincitori di ogni classe avranno poi l'occasione di trasformare le proprie idee in un breve video di 5 minuti, utilizzando la creatività e le competenze digitali per comunicare in modo efficace il messaggio di educazione civica. Questi video saranno successivamente condivisi con il pubblico durante l'evento finale di <i>InformEtica 24</i>.
           </p>
           <p>
-            Ma qui non finisce: il pubblico avrà il potere di votare il video più bello, quello che meglio riesce a trasmettere il messaggio di educazione civica in modo coinvolgente e significativo. Il video con il maggior numero di voti vincerà il concorso, e sarà quindi lo studente più talentuoso tra le centinaia di partecipanti!
+            Ma qui non finisce: il pubblico avrà il potere di votare il video più bello, quello che meglio riesce a trasmettere il messaggio di educazione civica in modo coinvolgente e significativo. Il video con il maggior numero di voti vincerà il concorso, e sarà quindi il più bello. Oltre 200 partecipanti!
+          </p>
+          <p>
+            In bocca al lupo!
           </p>
         </div>
       
@@ -66,6 +69,9 @@ function EdCivica() {
               <ul>
                 <li>
                   Durata dell'esposizione: 5 minuti.
+                </li>
+                <li>
+                  Consegna del pptx tramite email al docente.
                 </li>
               </ul>
             </p>

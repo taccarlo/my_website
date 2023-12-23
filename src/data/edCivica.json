@@ -14,10 +14,6 @@
                     "description":"Analizza la pratica dell'imitazione delle persone di colore e le sue implicazioni."
                 },
                 {
-                    "title":"White face",
-                    "description":"Tratta il fenomeno di appropriazione culturale e la rappresentazione inadeguata delle minoranze."
-                },
-                {
                     "title":"Barriere architettoniche e mentali per la disabilità fisica",
                     "description":"Esplora gli ostacoli sia fisici che sociali affrontati dalle persone con disabilità."
                 },
@@ -61,7 +57,7 @@
                 },
                 {
                     "title":"Love Bombing, Ghosting e amore sui social",
-                    "description":"Il love bombing e il ghosting sono fenomeni legati al contesto delle relazioni interpersonali, e sempre più spesso si manifestano anche nell'ambito dell'educazione, specialmente tra giovani e adolescenti."
+                    "description":"Il love bombing e il ghosting sono fenomeni legati al contesto delle relazioni interpersonali, e sempre più spesso si manifestano anche nell'ambito dell'amore sui social, specialmente tra giovani e adolescenti."
                 },
                 {
                     "title":"Bullismo e cyberbullismo",
@@ -110,11 +106,11 @@
             "list":[
                 {
                     "title":"Parità di genere ed emancipazione",
-                    "description":"Tratta la lotta per l'uguaglianza di genere e i progressi compiuti."
+                    "description":"Tratta la lotta per l'uguaglianza di genere e i progressi compiuti negli ultimi anni."
                 },
                 {
                     "title":"Femminicidio",
-                    "description":"Analizza il grave problema degli omicidi di donne basati sul genere."
+                    "description":"Analizza il grave problema degli omicidi dolosi o preterintenzionli in cui una donna viene uccisa da un individuo per motivi basati sul genere."
                 },
                 {
                     "title":"Discriminazione di genere",
@@ -187,7 +183,7 @@
                     "description":"Discussione sull'uso responsabile dei social media."
                 },
                 {
-                    "title":"Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle Fake news",
+                    "title":"Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle fake news",
                     "description":"Esplora la distinzione tra informazione e disinformazione e l'importanza di fonti affidabili."
                 },
                 {
@@ -207,8 +203,12 @@
                     "description":"Analizza l'impatto di Internet sulla nostra vita quotidiana."
                 },
                 {
-                    "title":"Negazionismo e complottismo Denatalità in Italia",
-                    "description":"Esplora le teorie del complotto e le sfide demografiche."
+                    "title":"Negazionismo e complottismo",
+                    "description":"Esplora le teorie del complotto e del negazionismo, dalla Shoah al cambiamento climatico."
+                },
+                {
+                    "title":"Denatalità in Italia",
+                    "description":"Esplora le sfide demografiche italiane, collegandosi alla problematica di una popolazione sempre più vecchia."
                 },
                 {
                     "title":"Sostenibilità sociale, ambientale ed economica di un’azienda",
