@@ -98,6 +98,24 @@
   src: local('ShortBaby'), url('./ShortBaby.ttf') format('truetype')
 }
 
+.center-image{
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+
+}
+
+.center-image .img-normal{
+ max-width:600px;
+ max-height:600px;  
+ 
+}
+.center-image .img-large{
+ max-width:100%;
+ max-height:100%;  
+ 
+}
+
 .ShortBabyTitle{
   font-family:'ShortBaby';
   font-size: 2.5rem;

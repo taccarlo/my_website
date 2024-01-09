@@ -70,7 +70,7 @@
                     "description":"Esamina la storia e le forme contemporanee di razzismo nel mondo."
                 },
                 {
-                    "title":"la black face negli stati uniti",
+                    "title":"La black face negli Stati Uniti e in Italia",
                     "description":"Analizza la pratica dell'imitazione delle persone di colore e le sue implicazioni."
                 },
                 {
@@ -108,7 +108,7 @@
                     "description":"Tratta la lotta per l'uguaglianza di genere e i progressi compiuti negli ultimi anni."
                 },
                 {
-                    "title":"Femminicidio",
+                    "title":"Violenza sulle donne e femminicidio",
                     "description":"Analizza il grave problema degli omicidi dolosi o preterintenzionli in cui una donna viene uccisa da un individuo per motivi basati sul genere."
                 },
                 {
@@ -122,6 +122,10 @@
                 {
                     "title":"Afghanistan e diritti delle donne",
                     "description":"Analisi dei diritti delle donne in Afghanistan e le sfide che affrontano."
+                },
+                {
+                    "title":"Catcalling e comportamenti sessisti: la differenza tra apprezzamento e molestia",
+                    "description":"Con il termine catcalling si fa riferimento all'insieme di comportamenti sessisti che alcuni uomini mettono in atto nei confronti di donne che non conoscono e che incontrano in qualsiasi luogo della vita quotidiana."
                 }
             ]
         },
