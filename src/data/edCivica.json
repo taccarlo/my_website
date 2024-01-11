@@ -1,7 +1,67 @@
 {
     
     "temi" : [
-
+        {
+            "topic":"Temi su salute e benessere mentale",
+            "list":[
+                {
+                    "title":"Bullismo e cyberbullismo",
+                    "description":"Analisi del bullismo tradizionale e delle forme online di aggressione."
+                },
+                {
+                    "title":"Il body shaming",
+                    "description":"Analisi delle critiche al corpo e dei pregiudizi basati sull'aspetto fisico."
+                },
+                {
+                    "title":"Ergonomia, computer e salute",
+                    "description":"Esplora l'importanza dell'ergonomia nella prevenzione di problemi di salute legati all'uso del computer."
+                },
+                {
+                    "title":"Ansia in contesto scolastico",
+                    "description":"Discussione sull'ansia legata agli studi e alle pressioni accademiche."
+                },
+                {
+                    "title":"Abuso di sostanze",
+                    "description":"Esplora le conseguenze dell'abuso di droghe e alcol sulla salute e sulla società."
+                },
+                {
+                    "title":"Catfishing",
+                    "description":"Discute il fenomeno del catfishing e le relazioni online ingannevoli (si può citare anche il caso Roberto Zaccaria)."
+                },
+                {
+                    "title":"Love Bombing, Ghosting e amore sui social",
+                    "description":"Il love bombing e il ghosting sono fenomeni legati al contesto delle relazioni interpersonali, e sempre più spesso si manifestano anche nell'ambito dell'amore sui social, specialmente tra giovani e adolescenti."
+                },
+                {
+                    "title":"I tipi di bullismo",
+                    "description":"Verbale, fisico e sociale: Esamina le diverse modalità di bullismo e i danni che provocano."
+                },
+                {
+                    "title":"Smart working, pro e contro",
+                    "description":"Valutazione dei vantaggi e svantaggi del lavoro da remoto."
+                },
+                {
+                    "title":"Tristezza comune e depressione clinica",
+                    "description":"Confronto tra la tristezza comune e la depressione clinica."
+                },
+                {
+                    "title":"Educazione alla salute: il fumo",
+                    "description":"Tratta le conseguenze del fumo sulla salute."
+                },
+                {
+                    "title":"Accettazione del proprio corpo: Anoressia e obesità",
+                    "description":"Esamina le sfide legate all'immagine corporea e i disturbi alimentari."
+                },
+                {
+                    "title":"Whitewashing",
+                    "description":"Analisi di una pratica dell'industria cinematografica in cui un attore caucasico ottiene il ruolo di un personaggio storicamente di un'altra etnia."
+                },
+                {
+                    "title":"Educazione alla salute: l'abuso di alcool",
+                    "description":"Discute i problemi legati all'abuso di alcol sulla salute."
+                }
+            ]
+        },
         {
             "topic":"Temi sulla riduzione delle disuguaglianze",
             "list":[
@@ -10,7 +70,7 @@
                     "description":"Esamina la storia e le forme contemporanee di razzismo nel mondo."
                 },
                 {
-                    "title":"la black face negli stati uniti",
+                    "title":"La black face negli Stati Uniti e in Italia",
                     "description":"Analizza la pratica dell'imitazione delle persone di colore e le sue implicazioni."
                 },
                 {
@@ -113,7 +173,7 @@
                     "description":"Tratta la lotta per l'uguaglianza di genere e i progressi compiuti negli ultimi anni."
                 },
                 {
-                    "title":"Femminicidio",
+                    "title":"Violenza sulle donne e femminicidio",
                     "description":"Analizza il grave problema degli omicidi dolosi o preterintenzionli in cui una donna viene uccisa da un individuo per motivi basati sul genere."
                 },
                 {
@@ -127,6 +187,10 @@
                 {
                     "title":"Afghanistan e diritti delle donne",
                     "description":"Analisi dei diritti delle donne in Afghanistan e le sfide che affrontano."
+                },
+                {
+                    "title":"Catcalling e comportamenti sessisti: la differenza tra apprezzamento e molestia",
+                    "description":"Con il termine catcalling si fa riferimento all'insieme di comportamenti sessisti che alcuni uomini mettono in atto nei confronti di donne che non conoscono e che incontrano in qualsiasi luogo della vita quotidiana."
                 }
             ]
         },
@@ -183,8 +247,12 @@
                     "description":"Esamina l'odio online e le reazioni violente."
                 },
                 {
-                    "title":"Utilizzo corretto dei social",
+                    "title":"Utilizzo corretto dei social nella vita di tutti i giorni e diritto alla disconnessione nel mondo del lavoro",
                     "description":"Discussione sull'uso responsabile dei social media."
+                },
+                {
+                    "title":"Sindrome da Burn Out e ambienti di lavoro tossici",
+                    "description":"Analisi del burnout, un insieme che deriva da una condizione di stress cronico e persistente, associato al contesto lavorativo"
                 },
                 {
                     "title":"Differenza tra informazione e disinformazione, la cura delle fonti e fenomeno delle fake news",

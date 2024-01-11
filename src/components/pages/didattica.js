@@ -44,6 +44,11 @@ function Didattica() {
               <Link to="/didattica/edCivica">Educazione civica 23/24</Link>
             </b>
           </li>
+          <li className="list-group-item list-group-item-action link-primary">
+            <b>
+              <Link target="_blank" to="https://scratch.mit.edu/studios/34440887/">Scratch - Link diretto </Link>
+            </b>
+          </li>
           </ul>
           </div>
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
