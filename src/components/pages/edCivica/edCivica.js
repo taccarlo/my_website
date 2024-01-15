@@ -86,7 +86,6 @@ function EdCivica() {
                 <h3>Struttura del documento:</h3>
                 <ul>
                   <li>Introduzione al tema</li>
-                  <li>Presentazione dell’argomento</li>
                   <li>Elaborazione del tema</li>
                   <li>Riflessioni personali</li>
                   <li>Conclusioni</li>
