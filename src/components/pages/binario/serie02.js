@@ -44,6 +44,42 @@ function Serie02Binario() {
               <li>100101110100101<sub>2</sub></li>
             </ul>
           </p>
+          
+          <h3>
+            Eseguire operazione AND sui seguenti byte
+          </h3>
+          <p>
+            <ul>
+              <li>01101011<sub>2</sub></li>
+              <li>10011011<sub>2</sub></li>
+            </ul>
+          </p>
+          <h3>
+            Eseguire operazione OR sui seguenti byte
+          </h3>
+          <p>
+            <ul>
+              <li>10101010<sub>2</sub></li>
+              <li>01101110<sub>2</sub></li>
+            </ul>
+          </p>
+          <h3>
+            Eseguire operazione XOR sui seguenti byte
+          </h3>
+          <p>
+            <ul>
+              <li>11001101<sub>2</sub></li>
+              <li>10101010<sub>2</sub></li>
+            </ul>
+          </p>
+          <h3>
+            Eseguire operazione NOT sul seguente byte
+          </h3>
+          <p>
+            <ul>
+              <li>10111010<sub>2</sub></li>
+            </ul>
+          </p>
         </div>
       </div>
     </>
