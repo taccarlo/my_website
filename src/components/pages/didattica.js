@@ -46,7 +46,12 @@ function Didattica() {
           </li>
           <li className="list-group-item list-group-item-action link-primary">
             <b>
-              <Link target="_blank" to="https://scratch.mit.edu/studios/34440887/">Scratch - Link diretto </Link>
+              <Link target="_blank" to="https://scratch.mit.edu/studios/34440887/">Scratch - Link al canale </Link>
+            </b>
+          </li>
+          <li className="list-group-item list-group-item-action link-primary">
+            <b>
+              <Link target="_blank" to="https://hackr.io/blog/html-projects">HTML/CSS - Link esterno </Link>
             </b>
           </li>
           </ul>
