@@ -19,6 +19,7 @@ import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidif
 import Estrattoredinumeri from "./components/pages/estrattoredinumeri/estrattoredinumeri";
 import CountDown from "./components/pages/countdown/countdown";
 import Testbench from "./components/pages/testbench/testbench";
+import TTS from "./components/pages/testbench/tts";
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,8 @@ const router = createBrowserRouter([
       {path:'/didattica/diagrammidiflusso', element: <DiagrammiDiFlusso/>},
       {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>},
       {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>},
-      {path:'/testbench', element: <Testbench/>}
+      {path:'/testbench', element: <Testbench/>},
+      {path:'/testbench/tts', element: <TTS/>}
     ]},
 ]);
 
