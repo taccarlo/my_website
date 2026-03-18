@@ -45,6 +45,15 @@ function Home(){
                       </div>
                   </div>
               </div>
+              <div className="col-md-4 mb-5">
+                  <div className="card h-100">
+                      <div className="card-body">
+                          <h2 className="card-title">Testbench</h2>
+                          <p className="card-text">Spazio web usato per testare funzionalità che servono per l'attività di sviluppo.</p>
+                      </div>
+                      <div className="card-footer"><Link to="/testbench" className="btn btn-primary btn-sm">Vai alla sezione</Link></div>
+                  </div>
+              </div>
           </div>
         </div>
        </>

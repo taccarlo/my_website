@@ -18,6 +18,7 @@ import IndirizziIP from "./components/pages/indirizzoip/indirizzoip";
 import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidiflusso";
 import Estrattoredinumeri from "./components/pages/estrattoredinumeri/estrattoredinumeri";
 import CountDown from "./components/pages/countdown/countdown";
+import Testbench from "./components/pages/testbench/testbench";
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,8 @@ const router = createBrowserRouter([
       {path:'/didattica/indirizziip', element: <IndirizziIP/>},
       {path:'/didattica/diagrammidiflusso', element: <DiagrammiDiFlusso/>},
       {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>},
-      {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>}
+      {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>},
+      {path:'/testbench', element: <Testbench/>}
     ]},
 ]);
 
