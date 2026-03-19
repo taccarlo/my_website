@@ -1,13 +1,16 @@
 import { Helmet } from 'react-helmet-async';
 import { useState, useEffect, useRef } from 'react';
 
+const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
+
 function TTS() {
     const [text, setText] = useState('Hello, this is a test of the text to speech functionality.');
     const [voices, setVoices] = useState([]);
     const [selectedVoiceIndex, setSelectedVoiceIndex] = useState(0);
-    const synthRef = useRef(window.speechSynthesis);
+    const synthRef = useRef(ttsSupported ? window.speechSynthesis : null);
 
     useEffect(() => {
+        if (!ttsSupported) return;
         const synth = synthRef.current;
 
         function loadVoices() {
@@ -26,6 +29,7 @@ function TTS() {
     }, []);
 
     function speak() {
+        if (!synthRef.current) return;
         const synth = synthRef.current;
         const utterance = new SpeechSynthesisUtterance(text);
         if (voices[selectedVoiceIndex]) {
@@ -38,6 +42,7 @@ function TTS() {
     }
 
     function stop() {
+        if (!synthRef.current) return;
         synthRef.current.cancel();
     }
 
@@ -50,6 +55,11 @@ function TTS() {
             </Helmet>
             <div className="container px-4 my-4">
                 <h2>Text-to-Speech PoC</h2>
+                {!ttsSupported && (
+                    <div className="alert alert-warning" role="alert">
+                        Text-to-Speech non è disponibile su questo dispositivo o browser.
+                    </div>
+                )}
 
                 <div className="mb-3">
                     <textarea
