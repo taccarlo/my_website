@@ -12,6 +12,7 @@ import CustomErrorElement from "./components/navigation/errorElement";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyGithub from "./components/pages/myGithub";
 import './style/style.css';
+import './style/modern-theme.css';
 
 // Code-splitting: Lazy loading per pagine didattiche e più pesanti
 const Didattica = React.lazy(() => import("./components/pages/didattica"));

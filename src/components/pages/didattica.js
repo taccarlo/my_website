@@ -17,7 +17,7 @@ function Didattica() {
 
         <ul
           className="list-group"
-          style={{ maxHeight: 300, overflow: "auto", padding: 2 }}
+          style={{ padding: 2 }}
           role="list"
           aria-label="Lezioni di didattica disponibili"
         >
@@ -64,7 +64,7 @@ function Didattica() {
           <h2>Strumenti didattici</h2>
         <ul
           className="list-group"
-          style={{ maxHeight: 300, overflow: "auto", padding: 2 }}
+          style={{ padding: 2 }}
         >
           <li className="list-group-item list-group-item-action link-primary">
             <b>

@@ -1,12 +1,12 @@
 /* ===== VERSIONE 3: BREADCRUMB CON ICONE SVG ===== */
 
 .breadcrumbs-container-v3 {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f0f4f8 0%, #dbeafe 100%);
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   margin: 1.5rem 1rem 2rem 1rem;
-  box-shadow: 0 10px 30px rgba(119, 158, 203, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.15);
   backdrop-filter: blur(10px);
 }
 
@@ -34,7 +34,7 @@
 
 /* Gradients per colori variati */
 .gradient-0 { --gradient-start: #a8edea; --gradient-end: #fed6e3; }
-.gradient-1 { --gradient-start: #667eea; --gradient-end: #764ba2; }
+.gradient-1 { --gradient-start: #3b82f6; --gradient-end: #1e40af; }
 .gradient-2 { --gradient-start: #f093fb; --gradient-end: #f5576c; }
 .gradient-3 { --gradient-start: #4facfe; --gradient-end: #00f2fe; }
 .gradient-4 { --gradient-start: #43e97b; --gradient-end: #38f9d7; }
@@ -100,8 +100,8 @@
 
 /* Link Home speciale */
 .breadcrumb-home {
-  --gradient-start: #665bff;
-  --gradient-end: #764ba2;
+  --gradient-start: #3b82f6;
+  --gradient-end: #1e40af;
 }
 
 /* Breadcrumb corrente (ultima pagina) */
