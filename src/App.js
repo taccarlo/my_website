@@ -1,25 +1,32 @@
 
 
+import React, { Suspense } from 'react';
+import ErrorBoundary from './components/ErrorBoundary';
+import LoadingSpinner from './components/LoadingSpinner';
+
+// Importazioni immediate per pagine critiche
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
 import RootLayout from "./components/root/root";
 import CustomErrorElement from "./components/navigation/errorElement";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyGithub from "./components/pages/myGithub";
-import Didattica from "./components/pages/didattica";
-import GTSA from "./components/pages/GTSA";
-import EdCivica from "./components/pages/edCivica/edCivica.js";
-import Binario from "./components/pages/binario/binario.js";
 import './style/style.css';
-import Serie01Binario from "./components/pages/binario/serie01";
-import Serie02Binario from "./components/pages/binario/serie02";
-import AlgebraBooleana from "./components/pages/algebrabooleana/algebrabooleana";
-import IndirizziIP from "./components/pages/indirizzoip/indirizzoip";
-import DiagrammiDiFlusso from "./components/pages/diagrammidiflusso/diagrammidiflusso";
-import Estrattoredinumeri from "./components/pages/estrattoredinumeri/estrattoredinumeri";
-import CountDown from "./components/pages/countdown/countdown";
-import Testbench from "./components/pages/testbench/testbench";
-import TTS from "./components/pages/testbench/tts";
+
+// Code-splitting: Lazy loading per pagine didattiche e più pesanti
+const Didattica = React.lazy(() => import("./components/pages/didattica"));
+const GTSA = React.lazy(() => import("./components/pages/GTSA"));
+const EdCivica = React.lazy(() => import("./components/pages/edCivica/edCivica.js"));
+const Binario = React.lazy(() => import("./components/pages/binario/binario.js"));
+const Serie01Binario = React.lazy(() => import("./components/pages/binario/serie01"));
+const Serie02Binario = React.lazy(() => import("./components/pages/binario/serie02"));
+const AlgebraBooleana = React.lazy(() => import("./components/pages/algebrabooleana/algebrabooleana"));
+const IndirizziIP = React.lazy(() => import("./components/pages/indirizzoip/indirizzoip"));
+const DiagrammiDiFlusso = React.lazy(() => import("./components/pages/diagrammidiflusso/diagrammidiflusso"));
+const Estrattoredinumeri = React.lazy(() => import("./components/pages/estrattoredinumeri/estrattoredinumeri"));
+const CountDown = React.lazy(() => import("./components/pages/countdown/countdown"));
+const Testbench = React.lazy(() => import("./components/pages/testbench/testbench"));
+const TTS = React.lazy(() => import("./components/pages/testbench/tts"));
 
 const router = createBrowserRouter([
   {
@@ -47,9 +54,13 @@ const router = createBrowserRouter([
 ]);
 
 function App(){
-  return  <div>
-              <RouterProvider router = {router}/>
-          </div>;
+  return (
+    <ErrorBoundary>
+      <Suspense fallback={<LoadingSpinner />}>
+        <RouterProvider router={router} />
+      </Suspense>
+    </ErrorBoundary>
+  );
 }
 
 export default App;

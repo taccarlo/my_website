@@ -77,6 +77,7 @@ let WheelComponent = function WheelComponent(_ref) {
       spinStart = new Date().getTime();
       maxSpeed = Math.PI / segments.length;
       frames = 0;
+      angleCurrent = Math.random() * Math.PI * 2;
       timerHandle = setInterval(onTimerTick, timerDelay);
     }
   };

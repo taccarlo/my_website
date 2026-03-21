@@ -13,7 +13,7 @@ export default function EstrattoreDiNumeri(){
         setWinner(winner);
         if(removeLast&&numbers.length>2){
             setNumbers(numbers.filter(a=>a!==winner));
-            setTimeout(function() {setVersionWheel(versionWheel+1)}, 2000); 
+            setTimeout(function() {setVersionWheel(versionWheel+1)}, 4000); 
         }
     };
     function updateWheel(){

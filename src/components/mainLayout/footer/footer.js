@@ -7,7 +7,7 @@ function Footer(){
         <> 
           <CookieConsent buttonText="OK" >Questo sito utilizza cookies per migliorare la tua esperienza utente.</CookieConsent>
       
-        <nav className="py-2 bg-dark fixed-bottom ">
+        <nav className="py-2 bg-dark mt-auto" role="contentinfo" aria-label="Informazioni sito">
           <div className="container px-4 px-lg-5" >
             <p className="m-0 text-center text-white">{packageJson.name} - V. {packageJson.version}</p>
           </div>
