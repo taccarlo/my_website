@@ -1,10 +1,16 @@
 {
   "hosting": {
     "public": "build",
-    "rewrites": [{
-      "source": "**",
-      "destination": "/index.html"
-      }],
+    "rewrites": [
+      {
+        "source": "/playStoreUrl",
+        "destination": "/playStoreUrl.json"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "headers": [{
       "source": "**",
       "headers": [{ "key": "Cache-Control", "value": "no-cache" }]

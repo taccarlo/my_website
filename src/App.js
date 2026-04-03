@@ -11,6 +11,7 @@ import RootLayout from "./components/root/root";
 import CustomErrorElement from "./components/navigation/errorElement";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyGithub from "./components/pages/myGithub";
+import PlayStoreUrl from "./components/pages/playStoreUrl";
 import './style/style.css';
 import './style/modern-theme.css';
 
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
       {path:'/testbench/tts', element: <TTS/>},
       {path:'/gtsa/privacypolicy', element: <PrivacyPolicy/>}
     ]},
+  {path:'/playStoreUrl', element: <PlayStoreUrl/>},
 ]);
 
 function App(){
