@@ -4,9 +4,12 @@ import useMetaTags from '../../hooks/useMetaTags';
 function Home(){
    useMetaTags({
       title: 'Home',
-      description: 'Pagina principale di Carlo Tacchella - Insegnante, sviluppatore e creatore di contenuti didattici',
+      description: 'Pagina principale di Carlo Tacchella - Insegnante, sviluppatore e creatore di contenuti didattici per le scuole superiori',
       canonical: '/',
-      keywords: 'didattica, programmazione, educazione civica, binario, algebra booleana'
+      keywords: 'Taccarlo, Carlo Tacchella, didattica, programmazione, educazione civica, binario, algebra booleana, insegnante informatica',
+      author: 'Carlo Tacchella',
+      ogTitle: 'Carlo Tacchella - Didattica e Sviluppo',
+      ogDescription: 'Risorse didattiche, progetti software e contenuti educativi per studenti di informatica'
    });
 
    return( 

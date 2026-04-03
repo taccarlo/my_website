@@ -1,15 +1,20 @@
 import {Link} from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from '../../hooks/useMetaTags';
 
 function About(){
+    useMetaTags({
+        title: 'Chi Sono',
+        description: 'Scopri di più su Carlo Tacchella. Insegnante di informatica, sviluppatore software e creatore di contenuti didattici per studenti delle superiori.',
+        canonical: '/about',
+        keywords: 'Carlo Tacchella, insegnante, informatica, sviluppatore, didattica',
+        author: 'Carlo Tacchella',
+        ogTitle: 'Chi Sono - Carlo Tacchella',
+        ogDescription: 'Scopri la storia e i progetti di Carlo Tacchella'
+    });
+
     return( 
         <>
-            <Helmet>
-                <title>About</title>
-                <meta name="description" content="About myself"/>
-                <link rel = "canonical" href = "/about" />
-            </Helmet>
-            <h1>My About Page</h1>
+            <h1>Chi Sono</h1>
             <p>Go to <Link to="/">home</Link></p>
         </>
       ); 
