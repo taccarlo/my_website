@@ -7,11 +7,20 @@
         "destination": "/playStoreUrl.json"
       },
       {
+        "source": "/sitemap.xml",
+        "destination": "/sitemap.xml"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
     ],
-    "headers": [{
+    "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    },
+    {
       "source": "**/*.@(js|css|png|jpg|jpeg|gif|svg|webp|woff|woff2|ttf|eot)",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000" }]
     },
