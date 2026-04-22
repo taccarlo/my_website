@@ -11,6 +11,7 @@ import RootLayout from "./components/root/root";
 import CustomErrorElement from "./components/navigation/errorElement";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MyGithub from "./components/pages/myGithub";
+import PlayStoreUrl from "./components/pages/playStoreUrl";
 import './style/style.css';
 import './style/modern-theme.css';
 
@@ -28,6 +29,7 @@ const Estrattoredinumeri = React.lazy(() => import("./components/pages/estrattor
 const CountDown = React.lazy(() => import("./components/pages/countdown/countdown"));
 const Testbench = React.lazy(() => import("./components/pages/testbench/testbench"));
 const TTS = React.lazy(() => import("./components/pages/testbench/tts"));
+const PrivacyPolicy = React.lazy(() => import("./components/pages/privacypolicy"));
 
 const router = createBrowserRouter([
   {
@@ -50,8 +52,10 @@ const router = createBrowserRouter([
       {path:'/didattica/algebrabooleana', element: <AlgebraBooleana/>},
       {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>},
       {path:'/testbench', element: <Testbench/>},
-      {path:'/testbench/tts', element: <TTS/>}
+      {path:'/testbench/tts', element: <TTS/>},
+      {path:'/gtsa/privacypolicy', element: <PrivacyPolicy/>}
     ]},
+  {path:'/playStoreUrl', element: <PlayStoreUrl/>},
 ]);
 
 function App(){
