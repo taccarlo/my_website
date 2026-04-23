@@ -16,7 +16,7 @@ function DiagrammiDiFlusso() {
           name="description"
           content="Diagrammi di Flusso"
         />
-        <link rel="canonical" href="/didattica/diagrammidiflusso" />
+        <link rel="canonical" href="https://taccarlo.web.app/didattica/diagrammidiflusso" />
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">

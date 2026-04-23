@@ -15,7 +15,7 @@ function EdCivica() {
           name="description"
           content="Parte relativa all'educazione civica"
         />
-        <link rel="canonical" href="/didattica/edCivica" />
+        <link rel="canonical" href="https://taccarlo.web.app/didattica/edCivica" />
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row  text-center my-5">

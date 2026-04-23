@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import useMetaTags from '../../hooks/useMetaTags';
 
 function Home(){
-   useMetaTags({
+   const metaTags = useMetaTags({
       title: 'Home',
       description: 'Pagina principale di Carlo Tacchella - Insegnante, sviluppatore e creatore di contenuti didattici per le scuole superiori',
       canonical: '/',
@@ -14,6 +14,7 @@ function Home(){
 
    return( 
        <>
+        {metaTags}
         <div className="container px-4 px-lg-5" role="main" aria-label="Contenuto principale della home">
           <div className="row gx-4 gx-lg-5 my-5">
               <div className="col-md-4 mb-5">
