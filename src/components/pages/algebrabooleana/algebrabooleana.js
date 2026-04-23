@@ -14,7 +14,7 @@ function AlgebraBooleana() {
           name="description"
           content="Algebra Booleana"
         />
-        <link rel="canonical" href="/didattica/algebrabooleana" />
+        <link rel="canonical" href="https://taccarlo.web.app/didattica/algebrabooleana" />
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">

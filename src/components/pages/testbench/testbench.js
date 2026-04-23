@@ -10,7 +10,7 @@ function Testbench() {
           name="description"
           content="Spazio web usato per testare funzionalità che servono per l'attività di sviluppo"
         />
-        <link rel="canonical" href="/testbench" />
+        <link rel="canonical" href="https://taccarlo.web.app/testbench" />
       </Helmet>
 
       <div className="container px-4">

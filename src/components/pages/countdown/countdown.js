@@ -4,7 +4,7 @@ import useMetaTags from "../../../hooks/useMetaTags";
 import './countdown.css';
 
 export default function CountDown() {
-  useMetaTags({
+  const metaTags = useMetaTags({
     title: 'Conto alla Rovescia',
     description: 'Timer/Countdown online con preset e controlli',
     canonical: '/didattica/countdown'
@@ -104,7 +104,9 @@ export default function CountDown() {
   };
 
   return (
-    <div className="container px-4 px-lg-5" role="main" aria-label="Conto alla rovescia">
+    <>
+      {metaTags}
+      <div className="container px-4 px-lg-5" role="main" aria-label="Conto alla rovescia">
       <div className="countdown-wrapper">
         {/* Display principale */}
         <div className="countdown-display card h-100">
@@ -200,5 +202,6 @@ export default function CountDown() {
         </div>
       </div>
     </div>
+    </>
   );
 }

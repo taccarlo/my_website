@@ -6,7 +6,7 @@ function GTSA(){
         <Helmet>
             <title>Canale di app Android</title>
             <meta name="description" content="Parte relativa al canale di App"/>
-            <link rel = "canonical" href = "/GTSA" />
+            <link rel="canonical" href="https://taccarlo.web.app/GTSA" />
         </Helmet>
         <h1>Canale App Android Good Time Studios App</h1>
         <h3>Barzellette</h3>

@@ -51,7 +51,7 @@ function TTS() {
             <Helmet>
                 <title>TTS PoC</title>
                 <meta name="description" content="Text-to-Speech proof of concept" />
-                <link rel="canonical" href="/testbench/tts" />
+                <link rel="canonical" href="https://taccarlo.web.app/testbench/tts" />
             </Helmet>
             <div className="container px-4 my-4">
                 <h2>Text-to-Speech PoC</h2>

@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import useMetaTags from '../../hooks/useMetaTags';
 
 function About(){
-    useMetaTags({
+    const metaTags = useMetaTags({
         title: 'Chi Sono',
         description: 'Scopri di più su Carlo Tacchella. Insegnante di informatica, sviluppatore software e creatore di contenuti didattici per studenti delle superiori.',
         canonical: '/about',
@@ -14,6 +14,7 @@ function About(){
 
     return( 
         <>
+            {metaTags}
             <h1>Chi Sono</h1>
             <p>Go to <Link to="/">home</Link></p>
         </>

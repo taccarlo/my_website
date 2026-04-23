@@ -7,7 +7,7 @@ function PrivacyPolicy() {
       <Helmet>
         <title>Privacy Policy - Good Time Studios App</title>
         <meta name="description" content="Privacy Policy for Good Time Studios Android applications" />
-        <link rel="canonical" href="/gtsa/privacypolicy" />
+        <link rel="canonical" href="https://taccarlo.web.app/gtsa/privacypolicy" />
       </Helmet>
       <div className="privacy-policy-container">
         <h1>Privacy Policy</h1>

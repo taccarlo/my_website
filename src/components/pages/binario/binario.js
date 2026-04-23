@@ -10,7 +10,7 @@ function Binario() {
           name="description"
           content="Insegnamento di conversioni in codice binario"
         />
-        <link rel="canonical" href="/didattica/binario" />
+        <link rel="canonical" href="https://taccarlo.web.app/didattica/binario" />
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">

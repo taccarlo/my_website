@@ -6,7 +6,7 @@ function IndirizziIP() {
       <Helmet>
         <title>Indirizzi IP</title>
         <meta name="description" content="Indirizzi IP" />
-        <link rel="canonical" href="/didattica/binario" />
+        <link rel="canonical" href="https://taccarlo.web.app/didattica/indirizzoip" />
       </Helmet>
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import useMetaTags from "../../hooks/useMetaTags";
 
 function Didattica() {
-  useMetaTags({
+  const metaTags = useMetaTags({
     title: 'Didattica',
     description: 'Materiale didattico per le superiori: Calcolo Binario, Algebra Booleana, IPv4, Diagrammi di Flusso e molto altro',
     canonical: '/didattica',
@@ -11,6 +11,7 @@ function Didattica() {
 
   return (
     <>
+      {metaTags}
       <div className="container px-4 px-lg-5" role="main" aria-label="Sezione didattica">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h2>Didattica</h2>
