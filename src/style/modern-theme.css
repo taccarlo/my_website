@@ -139,19 +139,24 @@ a:hover {
 
 /* ===== HEADER MIGLIORATO ===== */
 .navbar {
-  box-shadow: var(--shadow-sm);
-  border-bottom: 1px solid rgba(102, 126, 234, 0.12);
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
 }
 
 .navbar-dark {
-  background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+  background: #111827 !important;
 }
 
 .nav-link {
-  color: rgba(255, 255, 255, 0.85) !important;
-  transition: var(--transition);
+  color: rgba(255, 255, 255, 0.55) !important;
+  transition: color 0.2s ease;
   position: relative;
-  padding-bottom: 0.5rem !important;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.3rem !important;
 }
 
 .nav-link::after {
@@ -160,9 +165,9 @@ a:hover {
   bottom: 0;
   left: 50%;
   width: 0;
-  height: 2px;
-  background: var(--gradient-primary);
-  transition: var(--transition);
+  height: 1px;
+  background: rgba(255, 255, 255, 0.35);
+  transition: width 0.25s ease;
   transform: translateX(-50%);
 }
 
@@ -171,7 +176,7 @@ a:hover {
 }
 
 .nav-link:hover {
-  color: #fff !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 /* ===== FOOTER MIGLIORATO ===== */
