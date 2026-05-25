@@ -1,22 +1,20 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import jsonString from "../../../data/edCivica.json";
 import TopicList from "../../list/topicList/topicList";
 import civica2 from "./civica2.png";
 import civica1 from "./civica1.png";
 
 function EdCivica() {
+  const metaTags = useMetaTags({
+    title: 'Educazione Civica',
+    description: 'Concorso InformEtica 24 di educazione civica per studenti delle scuole superiori - Cittadinanza digitale, etica e partecipazione',
+    canonical: '/didattica/edCivica'
+  });
   const edCivicaList = jsonString["temi"];
 
   return (
     <>
-      <Helmet>
-        <title></title>
-        <meta
-          name="description"
-          content="Parte relativa all'educazione civica"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/edCivica" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row  text-center my-5">
           <h1 className="ShortBabyTitle">InformEtica 24</h1>

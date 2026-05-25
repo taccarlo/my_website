@@ -1,17 +1,15 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import CardBinario from "../../card/Card_binario";
 import {Link} from 'react-router-dom';
 function Binario() {
+  const metaTags = useMetaTags({
+    title: 'Calcolo Binario',
+    description: 'Insegnamento di conversioni in codice binario: decimale, binario, esadecimale - Video didattici ed esercizi',
+    canonical: '/didattica/binario'
+  });
   return (
     <>
-      <Helmet>
-        <title>Binario</title>
-        <meta
-          name="description"
-          content="Insegnamento di conversioni in codice binario"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/binario" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Codice Binario: Passaggio da una base numerica ad un'altra.</h1>

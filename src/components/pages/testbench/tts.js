@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from '../../../hooks/useMetaTags';
 import { useState, useEffect, useRef } from 'react';
 
 const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
@@ -46,13 +46,14 @@ function TTS() {
         synthRef.current.cancel();
     }
 
+    const metaTags = useMetaTags({
+        title: 'Text-to-Speech PoC',
+        description: 'Proof of concept di sintesi vocale con Web Speech API - Text-to-Speech nel browser',
+        canonical: '/testbench/tts'
+    });
     return (
         <>
-            <Helmet>
-                <title>TTS PoC</title>
-                <meta name="description" content="Text-to-Speech proof of concept" />
-                <link rel="canonical" href="https://taccarlo.web.app/testbench/tts" />
-            </Helmet>
+            {metaTags}
             <div className="container px-4 my-4">
                 <h2>Text-to-Speech PoC</h2>
                 {!ttsSupported && (

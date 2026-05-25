@@ -1,14 +1,15 @@
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from '../../hooks/useMetaTags';
 import '../../style/style.css';
 
 function PrivacyPolicy() {
+  const metaTags = useMetaTags({
+    title: 'Privacy Policy',
+    description: 'Privacy Policy per le applicazioni Android Good Time Studios - Protezione dati, COPPA, GDPR, CCPA',
+    canonical: '/gtsa/privacypolicy'
+  });
   return (
     <>
-      <Helmet>
-        <title>Privacy Policy - Good Time Studios App</title>
-        <meta name="description" content="Privacy Policy for Good Time Studios Android applications" />
-        <link rel="canonical" href="https://taccarlo.web.app/gtsa/privacypolicy" />
-      </Helmet>
+      {metaTags}
       <div className="privacy-policy-container">
         <h1>Privacy Policy</h1>
         <p><strong>Effective Date:</strong> March 27, 2026</p>

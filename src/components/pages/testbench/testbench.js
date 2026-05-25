@@ -1,17 +1,15 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import { Link } from "react-router-dom";
 
 function Testbench() {
+  const metaTags = useMetaTags({
+    title: 'Testbench',
+    description: 'Spazio web per testare funzionalità di sviluppo: Text-to-Speech, Browser Dashboard e PoC sperimentali',
+    canonical: '/testbench'
+  });
   return (
     <>
-      <Helmet>
-        <title>Testbench</title>
-        <meta
-          name="description"
-          content="Spazio web usato per testare funzionalità che servono per l'attività di sviluppo"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/testbench" />
-      </Helmet>
+      {metaTags}
 
       <div className="container px-4">
         <div className="row gx-4 my-4">

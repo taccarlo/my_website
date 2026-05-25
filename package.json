@@ -1,6 +1,6 @@
 {
   "name": "carlo-tacchella",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -21,8 +21,46 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "source": "build",
+    "fixWebpackChunksIssue": "CRA2",
+    "skipThirdPartyRequests": true,
+    "waitFor": 3000,
+    "navigationTimeout": 30000,
+    "minifyHtml": {
+      "collapseWhitespace": true,
+      "removeComments": true
+    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage"
+    ],
+    "include": [
+      "/",
+      "/about",
+      "/myGithub",
+      "/GTSA",
+      "/gtsa/privacypolicy",
+      "/playStoreUrl",
+      "/didattica",
+      "/didattica/binario",
+      "/didattica/binario/serie01",
+      "/didattica/binario/serie02",
+      "/didattica/algebrabooleana",
+      "/didattica/indirizziip",
+      "/didattica/diagrammidiflusso",
+      "/didattica/edCivica",
+      "/didattica/estrattoredinumeri",
+      "/didattica/countdown",
+      "/testbench",
+      "/testbench/tts",
+      "/testbench/browserdashboard"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +79,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
   }
 }

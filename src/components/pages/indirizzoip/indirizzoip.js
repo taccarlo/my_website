@@ -1,13 +1,14 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import CardYoutube from "../../card/Card_binario";
 function IndirizziIP() {
+  const metaTags = useMetaTags({
+    title: 'Indirizzi IPv4',
+    description: 'Indirizzi IPv4 Classful e Classless - Subnetting, maschere di rete ed esercizi pratici per studenti',
+    canonical: '/didattica/indirizziip'
+  });
   return (
     <>
-      <Helmet>
-        <title>Indirizzi IP</title>
-        <meta name="description" content="Indirizzi IP" />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/indirizzoip" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Indirizzi IPv4 CLASSLESS e CLASSFUL</h1>

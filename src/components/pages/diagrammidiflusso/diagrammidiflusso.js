@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import es00 from './flusso00.jpg';
 import es01 from './flusso01.jpg';
 import es02 from './flusso02.jpg';
@@ -8,16 +8,14 @@ import es05 from './flusso05.jpg';
 import es06 from './flusso06.jpg';
 import es07 from './flusso07.jpg';
 function DiagrammiDiFlusso() {
+  const metaTags = useMetaTags({
+    title: 'Diagrammi di Flusso',
+    description: 'Esercizi sui diagrammi di flusso per studenti di informatica - Algoritmi, flowchart e Flogorithm',
+    canonical: '/didattica/diagrammidiflusso'
+  });
   return (
     <>
-      <Helmet>
-        <title>Diagrammi di Flusso</title>
-        <meta
-          name="description"
-          content="Diagrammi di Flusso"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/diagrammidiflusso" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Esercizi sui diagrammi di Flusso</h1>

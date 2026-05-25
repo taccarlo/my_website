@@ -1,6 +1,11 @@
-import React from 'react';
+import useMetaTags from '../../hooks/useMetaTags';
 
 function PlayStoreUrl() {
+  const metaTags = useMetaTags({
+    title: 'App Android',
+    description: 'Elenco completo delle app Android Good Time Studios disponibili su Google Play',
+    canonical: '/playStoreUrl'
+  });
   const data = {
     "apps": [
       {
@@ -41,7 +46,7 @@ function PlayStoreUrl() {
     ]
   };
 
-  return <pre>{JSON.stringify(data, null, 2)}</pre>;
+  return <>{metaTags}<pre>{JSON.stringify(data, null, 2)}</pre></>;
 }
 
 export default PlayStoreUrl;

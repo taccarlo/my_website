@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from '../../../hooks/useMetaTags';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import {
@@ -289,13 +289,14 @@ function BrowserDashboard() {
   };
 
   // ── Render ─────────────────────────────────────────────────────────────────
-  return (
+    const metaTags = useMetaTags({
+        title: 'Browser Dashboard',
+        description: 'Dashboard real-time per monitorare lo stato del browser: connessione, memoria JS heap, uptime e metriche di sistema',
+        canonical: '/testbench/browserdashboard'
+    });
+    return (
     <>
-      <Helmet>
-        <title>Browser Dashboard | Testbench</title>
-        <meta name="description" content="Dashboard real-time per monitorare lo stato del browser, memoria e connessione." />
-        <link rel="canonical" href="https://taccarlo.web.app/testbench/browserdashboard" />
-      </Helmet>
+      {metaTags}
 
       <div className="bd-dashboard">
 

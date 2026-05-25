@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 import '../../../style/style.css';
 import es02 from './es_logica_02.jpg'
 import es03 from './es_logica_03.jpg'
@@ -6,16 +6,14 @@ import es04 from './es_logica_04.jpg'
 import es_travestimento from './es_travestimento.jpg'
 import CardYoutube from "../../card/Card_binario";
 function AlgebraBooleana() {
+  const metaTags = useMetaTags({
+    title: 'Algebra Booleana',
+    description: 'Algebra Booleana: tabelle della verità di AND, OR, NOT - Esercizi ed esempi per studenti di informatica',
+    canonical: '/didattica/algebrabooleana'
+  });
   return (
     <>
-      <Helmet>
-        <title>Algebra Booleana</title>
-        <meta
-          name="description"
-          content="Algebra Booleana"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/algebrabooleana" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Algebra Booleana</h1>

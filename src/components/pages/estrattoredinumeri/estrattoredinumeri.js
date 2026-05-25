@@ -1,8 +1,13 @@
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from "../../../hooks/useMetaTags";
 import WheelComponent from './WheelComponent';
 import {useState} from 'react';
 
 export default function EstrattoreDiNumeri(){
+    const metaTags = useMetaTags({
+        title: 'Estrattore di Numeri Casuali',
+        description: 'Ruota della fortuna per estrarre numeri casuali - strumento didattico interattivo per la scuola',
+        canonical: '/didattica/estrattoredinumeri'
+    });
     const[numbers, setNumbers]= useState(["1","2","3","4","5","6","7","8","9","10"]);
     const[removeLast, setRemoveLast]=useState(true);
     const[versionWheel,setVersionWheel]=useState(0);
@@ -28,11 +33,7 @@ export default function EstrattoreDiNumeri(){
         }
     }
     return <>
-        <Helmet>
-            <title>Estrattore di numeri casuali</title>
-            <meta name="description" content="Parte relativa alla didattica"/>
-            <link rel = "canonical" href = "/didattica/estrattoredinumeri" />
-        </Helmet>
+        {metaTags}
             <div className="container px-4 px-lg-5">
             <div style={{textAlign:'center'}}> 
             <WheelComponent

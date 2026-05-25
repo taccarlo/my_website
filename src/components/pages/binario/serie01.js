@@ -1,15 +1,13 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from "../../../hooks/useMetaTags";
 function Serie01Binario() {
+  const metaTags = useMetaTags({
+    title: 'Esercizi Calcolo Binario - Serie 01',
+    description: 'Esercizi di calcolo binario - Serie 01: conversioni decimali, binarie ed esadecimali, operazioni AND, OR, XOR, NOT',
+    canonical: '/didattica/binario/serie01'
+  });
   return (
     <>
-      <Helmet>
-        <title>Binario</title>
-        <meta
-          name="description"
-          content="Insegnamento di conversioni in codice binario - Serie 01"
-        />
-        <link rel="canonical" href="https://taccarlo.web.app/didattica/binario/serie01" />
-      </Helmet>
+      {metaTags}
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <h1>Esercizi sul calcolo binario - Serie 01</h1>

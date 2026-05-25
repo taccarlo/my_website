@@ -1,12 +1,14 @@
-import { Helmet } from "react-helmet-async";
+import useMetaTags from '../../hooks/useMetaTags';
 function MyGithub() {
+  const metaTags = useMetaTags({
+    title: 'Progetti GitHub',
+    description: 'Progetti software open source di Carlo Tacchella - LudicApp, strumenti didattici e applicazioni web',
+    canonical: '/myGithub',
+    keywords: 'GitHub, progetti, open source, Carlo Tacchella, software'
+  });
   return (
     <>
-      <Helmet>
-        <title>Github</title>
-        <meta name="description" content="I miei progetti github" />
-        <link rel="canonical" href="https://taccarlo.web.app/myGithub" />
-      </Helmet>
+      {metaTags}
       <h1>I miei progetti su Github</h1>
       <h3>Link a github</h3>
       <h3>LudicApp</h3>

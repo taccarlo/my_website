@@ -1,13 +1,14 @@
-import { Helmet } from 'react-helmet-async';
+import useMetaTags from '../../hooks/useMetaTags';
 import { Link } from 'react-router-dom';
 
 function GTSA(){
+    const metaTags = useMetaTags({
+        title: 'Good Time Studios App',
+        description: 'Canale di app Android Good Time Studios - Barzellette, Viking Fight, Aforismi, Swep! e Canzoniere',
+        canonical: '/GTSA'
+    });
     return (<>
-        <Helmet>
-            <title>Canale di app Android</title>
-            <meta name="description" content="Parte relativa al canale di App"/>
-            <link rel="canonical" href="https://taccarlo.web.app/GTSA" />
-        </Helmet>
+        {metaTags}
         <h1>Canale App Android Good Time Studios App</h1>
         <h3>Barzellette</h3>
         <h3>Viking Fight</h3>
