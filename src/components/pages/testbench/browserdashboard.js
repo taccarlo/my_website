@@ -365,7 +365,7 @@ function BrowserDashboard() {
           </div>
 
           {/* User Agent */}
-          <div className="bd-card">
+          <div className="bd-card" style={{ overflow: 'visible' }}>
             <div className="bd-metric-label">User Agent</div>
             <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap', marginBottom: '0.4rem' }}>
               <span className="bd-chip">{uaParsed.browser}</span>
