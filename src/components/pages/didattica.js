@@ -19,10 +19,9 @@ function Didattica() {
         <ul
           className="list-group"
           style={{ padding: 2 }}
-          role="list"
           aria-label="Lezioni di didattica disponibili"
         >
-          <li className="list-group-item list-group-item-action link-primary" role="listitem">
+          <li className="list-group-item list-group-item-action link-primary">
             <b>
               <Link to="/didattica/binario" aria-label="Vai a Calcolo Binario">Calcolo Binario</Link>
             </b>

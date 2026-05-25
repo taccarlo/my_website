@@ -5,7 +5,7 @@ import civica2 from "./civica2.png";
 import civica1 from "./civica1.png";
 
 function EdCivica() {
-  let edCivicaList = jsonString["temi"];
+  const edCivicaList = jsonString["temi"];
 
   return (
     <>

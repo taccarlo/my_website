@@ -13,13 +13,13 @@ export default function EstrattoreDiNumeri(){
         setWinner(winner);
         if(removeLast&&numbers.length>2){
             setNumbers(numbers.filter(a=>a!==winner));
-            setTimeout(function() {setVersionWheel(versionWheel+1)}, 4000); 
+            setTimeout(() => {setVersionWheel(versionWheel+1)}, 4000); 
         }
     };
     function updateWheel(){
         if(upperNumber>1){
             let i;
-            let array=[];
+            const array=[];
             for(i=0;i<upperNumber;i++){
                 array.push((i+1).toString())
             }
@@ -57,7 +57,7 @@ export default function EstrattoreDiNumeri(){
       <div className="container px-4 px-lg-5">
                   <div className="card h-100">
                       <div className="card-body">
-                      {winner!=null ? <h2 className="card-title">Numero estratto: {winner}</h2>:<h1>Gira la ruota!</h1>}
+                      {winner!==null ? <h2 className="card-title">Numero estratto: {winner}</h2>:<h1>Gira la ruota!</h1>}
             
            
                         </div>
