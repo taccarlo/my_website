@@ -49,15 +49,26 @@ function Home(){
                       </div>
                   </div>
               </div>
-              <div className="col-md-4 mb-5">
-                  <div className="card h-100">
-                      <div className="card-body">
-                          <h2 className="card-title">Testbench</h2>
-                          <p className="card-text">Spazio web usato per testare funzionalità che servono per l'attività di sviluppo.</p>
-                      </div>
-                      <div className="card-footer"><Link to="/testbench" className="btn btn-primary btn-sm" aria-label="Vai alla sezione testbench">Vai alla sezione</Link></div>
-                  </div>
-              </div>
+               <div className="col-md-4 mb-5">
+                   <div className="card h-100">
+                       <div className="card-body">
+                           <h2 className="card-title">Testbench</h2>
+                           <p className="card-text">Spazio web usato per testare funzionalità che servono per l'attività di sviluppo.</p>
+                       </div>
+                       <div className="card-footer"><Link to="/testbench" className="btn btn-primary btn-sm" aria-label="Vai alla sezione testbench">Vai alla sezione</Link></div>
+                   </div>
+               </div>
+               <div className="col-md-4 mb-5">
+                   <div className="card h-100">
+                       <div className="card-body">
+                           <h2 className="card-title">Design Pattern</h2>
+                           <p className="card-text">Code Arena è un sito di mia creazione in cui vengono spiegati e applicati design pattern di sviluppo web, con esempi pratici e implementazioni pronte all'uso.</p>
+                       </div>
+                       <div className="card-footer">
+                         <a target='_blank' className="btn btn-primary btn-sm" rel='noopener noreferrer' href="https://dualnodelabs.web.app/codearena" aria-label="Vai a Code Arena (apre in nuova finestra)">Vai a Code Arena</a>
+                       </div>
+                   </div>
+               </div>
           </div>
         </div>
        </>
