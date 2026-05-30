@@ -4,7 +4,7 @@ import useMetaTags from '../../hooks/useMetaTags';
 function Home(){
    const metaTags = useMetaTags({
       title: 'Home',
-      description: 'Pagina principale di Carlo Tacchella - Insegnante, sviluppatore e creatore di contenuti didattici per le scuole superiori',
+      description: 'Pagina principale di Carlo Tacchella - Sviluppatore software',
       canonical: '/',
       keywords: 'Taccarlo, Carlo Tacchella, didattica, programmazione, educazione civica, binario, algebra booleana, insegnante informatica',
       author: 'Carlo Tacchella',

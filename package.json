@@ -28,6 +28,7 @@
   "reactSnap": {
     "source": "build",
     "fixWebpackChunksIssue": "CRA2",
+    "generateSitemap": false,
     "skipThirdPartyRequests": true,
     "waitFor": 3000,
     "navigationTimeout": 30000,

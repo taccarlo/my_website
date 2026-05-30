@@ -9,7 +9,7 @@
         "destination": "/playStoreUrl.json"
       },
       {
-        "source": "/sitemap.xml",
+        "source": "/sitemap.txt",
         "destination": "/sitemap.xml"
       },
       {
@@ -20,7 +20,7 @@
     "headers": [
     {
       "source": "/sitemap.xml",
-      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
     },
     {
       "source": "**/*.@(js|css|png|jpg|jpeg|gif|svg|webp|woff|woff2|ttf|eot)",
