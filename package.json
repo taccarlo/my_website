@@ -60,6 +60,7 @@
       "/didattica/countdown",
       "/testbench",
       "/testbench/tts",
+      "/testbench/stt",
       "/testbench/browserdashboard"
     ]
   },
@@ -82,6 +83,10 @@
     ]
   },
   "devDependencies": {
-    "react-snap": "^1.23.0"
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "react-snap": "^1.23.0",
+    "typescript": "^4.9.5"
   }
 }

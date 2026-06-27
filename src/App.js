@@ -29,6 +29,7 @@ const Estrattoredinumeri = React.lazy(() => import("./components/pages/estrattor
 const CountDown = React.lazy(() => import("./components/pages/countdown/countdown"));
 const Testbench = React.lazy(() => import("./components/pages/testbench/testbench"));
 const TTS = React.lazy(() => import("./components/pages/testbench/tts"));
+const STT = React.lazy(() => import("./components/pages/testbench/stt.tsx"));
 const BrowserDashboard = React.lazy(() => import("./components/pages/testbench/browserdashboard"));
 const PrivacyPolicy = React.lazy(() => import("./components/pages/privacypolicy"));
 
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
       {path:'/didattica/estrattoredinumeri', element: <Estrattoredinumeri/>},
       {path:'/testbench', element: <Testbench/>},
       {path:'/testbench/tts', element: <TTS/>},
+      {path:'/testbench/stt', element: <STT/>},
       {path:'/gtsa/privacypolicy', element: <PrivacyPolicy/>}
     ]},
   {path:'/testbench/browserdashboard', element: <BrowserDashboard/>},
